@@ -1,0 +1,31 @@
+.content{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ded0e7;
+}  
+
+nav{
+    margin-left: 200px;
+    margin-right: 217px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    padding: 15px;
+    margin-top: 20px;
+}
+
+nav ul li{
+    padding-inline: 15px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #493165;
+}
+
+nav ul li:hover{
+    color: #ded0e7;
+}
