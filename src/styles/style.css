@@ -83,9 +83,13 @@ section#header h1 {
 }
 
 section#header h1 .title {
-    line-height: 128px;
-    font-size: 8rem;
+    line-height: 96px;
+    font-size: 5.5rem;
     font-weight: bold;
+}
+
+section#header h1 .subtitle {
+    font-size: 1.5rem;
 }
 
 section#aboutMe {
