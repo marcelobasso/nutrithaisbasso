@@ -29,11 +29,11 @@
 
     --pallete-portfolio-first: #493165;
     --pallete-portfolio-second: #ded0e7;
-
 }
 
 .btn:hover {
     color: var(--mdb-body-color);
+    box-shadow: var(--mdb-btn-hover-box-shadow);
 }
 
 body {
@@ -49,7 +49,7 @@ h1, h2, h3 {
 }
 
 .fs-1gg {
-    font-size: 4.5rem !important;
+    font-size: 3.5rem !important;
 }
 
 .logo {
@@ -80,24 +80,28 @@ i.fa-15x {
     font-size: 1.5rem;
 }
 
-section#header {
+section.header {
     margin-top: 123px;
 }
 
-section#header h1 {
+section.header h1, 
+section.header h2 {
     font-family: var(--main-font);
     color: var(--pallete-portfolio-first);
 }
 
-section#header h1 .title {
+section.header h1 .title,
+section.header h2 .title {
     line-height: 96px;
     font-size: 5.5rem;
     font-weight: bold;
 }
 
-section#header h1 .subtitle {
+section.header h1 .subtitle,
+section.header h2 .subtitle {
     font-size: 1.5rem;
 }
+
 nav ul a {
     display: inline-block; 
     position: relative;
@@ -107,7 +111,7 @@ nav ul a {
 
 nav ul a:after {
     content: '';
-    background: var(--pallete-violet-light); 
+    background: var(--pallete-portfolio-second); 
     height: 3px;
     position: absolute;
     bottom: 0;
@@ -206,11 +210,12 @@ i.heart {
         height: 48px;
     }
 
-    section#header {
+    section.header {
         margin-top: 83px;
     }
 
-    section#header h1 .title {
+    section.header h1 .title, 
+    section.header h2 .title {
         font-size: 4rem;
     }
 
