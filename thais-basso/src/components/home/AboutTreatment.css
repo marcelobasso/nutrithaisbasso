@@ -1,0 +1,20 @@
+section.acompanhamentoNutricional img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+section.acompanhamentoNutricional .gatsby-image-wrapper {
+    height: 220px;
+    margin-left: auto;
+}
+
+section.acompanhamentoNutricional .gatsby-image-wrapper.left img {
+    margin-left: auto;
+}
+
+section.acompanhamentoNutricional div.box {
+    display: block;
+    height: 80px;
+}

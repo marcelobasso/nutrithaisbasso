@@ -1,0 +1,27 @@
+section.aboutMe {
+    background-color: var(--pallete-portfolio-second);
+}
+
+section.aboutMe > div {
+    width: 100vw;
+    padding: 8px 1rem;
+}
+
+section.aboutMe div img {
+    box-shadow: 24px 24px var(--pallete-violet-dark);
+    -moz-box-shadow: 24px 24px  var(--pallete-violet-dark);
+    -webkit-box-shadow: 24px 24px  var(--pallete-violet-dark);
+    -o-box-shadow: 24px 24px  var(--pallete-violet-dark);
+    width: 100%;
+}
+
+section.aboutMe div .aboutMeText {
+    padding: 1.5em;
+    padding-right: 52px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+section.aboutMe button {
+    background-color: var(--pallete-green);
+}

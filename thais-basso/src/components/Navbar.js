@@ -1,6 +1,7 @@
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
+import "./Navbar.css";
 
 export default function Navbar() {
     const { logo } = useStaticQuery(graphql`

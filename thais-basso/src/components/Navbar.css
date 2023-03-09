@@ -1,0 +1,32 @@
+.logo {
+    min-width: 120px;
+}
+
+.navbar-brand, .navbar-brand img {
+    margin: 0;
+}
+
+nav ul a {
+    display: inline-block; 
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+} 
+
+nav ul a:after {
+    content: '';
+    background: var(--pallete-portfolio-second); 
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Underline goes to the right */
+nav ul a.go-right:after { transition: .33s all; width: 0; left: 100%; }
+nav ul a.go-right:hover:after { transition: .33s width; width: 100%; left: 0; }
+
+nav ul a.go-right:hover:after {
+    transition: 0.33s width;
+    width: 100%;
+    left: 0;
+}
