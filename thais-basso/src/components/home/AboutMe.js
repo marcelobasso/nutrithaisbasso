@@ -3,7 +3,8 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
 import Wave from './Wave';
 import "./AboutMe.css";
-import { Container, Row, SectionText, SectionTitle, CallToAction } from '../common/interface/UI';
+import { Container, Row, CallToAction } from '../common/interface/UI';
+import Section from '../common/Section';
 
 export default function AboutMe() {
     let isMobile = window.matchMedia("only screen and (max-width: 480px)").matches;
@@ -26,11 +27,7 @@ export default function AboutMe() {
                 <Container className="justify-content-between align-items-center">
                     <Row>
                         <div className="aboutMeText col-lg-7 col-md-12">
-                            <SectionTitle>Venha comigo <u>revolucionar a nutrição</u></SectionTitle>
-                            <SectionText>
-                                Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das
-                                pessoas. Vem conhecer melhor meu trabalho e ver como a nutrição pode mudar a sua?
-                            </SectionText>
+                            <Section title={<>Venha comigo <u>revolucionar a nutrição</u></>} content="Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. Vem conhecer melhor meu trabalho e ver como a nutrição pode mudar a sua?" />
                             <CallToAction text="Agende sua consulta!" href="https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005" alt="Whatsapp link" target="_blank" className="d-block w-50" />
                         </div>
                         <div className="aboutMeText col-lg-1 col-md-0"></div>

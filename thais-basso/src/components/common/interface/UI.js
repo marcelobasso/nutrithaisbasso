@@ -3,7 +3,7 @@ import React from 'react';
 const PageTitle = (props) => (
     <h1 className={`text-center  ${props.classname}`}>
         <span className="d-block title mb-3">{props.title}</span>
-        <span className="subtitle d-block">{props.subtitle}</span>
+        {props.subtitle && <span className="subtitle d-block">{props.subtitle}</span>}
     </h1>
 );
 

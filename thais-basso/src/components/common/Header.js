@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, PageTitle } from '../common/interface/UI';
 import "./Header.css";
 
-export default function Header() {
+export default function Header(props) {
     return (
-        <section class="header">
+        <section className="header">
             <Container className="pt-5 justify-content-center">
-                <PageTitle title="Thaís Basso" subtitle="nutricionista funcional e comportamental" />
+                <PageTitle title={props.title} subtitle={props.subtitle} />
             </Container>
         </section>
     );
