@@ -1,6 +1,7 @@
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
+import { Container } from './common/interface/UI';
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -63,7 +64,7 @@ export default function Navbar() {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div id="navbar-container" className="container-xl d-flex justify-content-between px-2 my-2">
+            <Container className="justify-content-between">
                 <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fas fa-bars"></i>
                 </button>
@@ -91,7 +92,7 @@ export default function Navbar() {
                         </a>
                     ))}
                 </div>
-            </div>
+            </Container>
         </nav>
     );
 }

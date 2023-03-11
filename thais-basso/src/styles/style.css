@@ -26,6 +26,7 @@
     --pallete-violet: #AD3173;
     --pallete-violet-dark: #472d65;
     --pallete-violet-light: #A2B1DA;
+    --pallete-violet-light-hov: #8c99bd;
     --pallete-pink: #EA85BF;
 
     --pallete-portfolio-first: #493165;
@@ -36,9 +37,16 @@
     --text-normal-size: 1rem;
 }
 
-.btn:hover {
+.btn {
+    transition: all .5s;
     color: var(--mdb-body-color);
     background-color: var(--pallete-violet-light);
+    /* background-color: var(--pallete-green); */
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--pallete-violet-light-hov);
     box-shadow: var(--mdb-btn-hover-box-shadow);
 }
 

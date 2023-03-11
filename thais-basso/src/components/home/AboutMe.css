@@ -21,7 +21,3 @@ section.aboutMe div .aboutMeText {
     margin-top: auto;
     margin-bottom: auto;
 }
-
-section.aboutMe button {
-    background-color: var(--pallete-green);
-}

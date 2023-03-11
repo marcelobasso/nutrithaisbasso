@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
+import { Container } from './common/interface/UI';
 import "./Footer.css";
 
 export default function Footer() {
@@ -36,12 +37,12 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footerHi p-3">
-                <div className="container-xl d-flex justify-content-between">
+                <Container className="d-flex justify-content-between">
                     <span>
-                        Made with <i className="fas fa-1x fa-heart heart"></i> by Lucas and Marcelo
+                        Made with <i className="fas fa-heart heart"></i> by Lucas and Marcelo
                     </span>
                     <span>© All rights are reserved | 2022</span>
-                </div>
+                </Container>
             </div>
         </footer>
     );

@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
-import { Row, SectionTitle, SectionText } from '../common/Interface/InterfaceElements.js';
+import { Row, SectionTitle, SectionText, Container } from '../common/interface/UI.js';
 import './AboutTreatment.css';
 
 export default function AboutTreatment() {
@@ -23,7 +23,7 @@ export default function AboutTreatment() {
 
     return (
         <section className="acompanhamentoNutricional">
-            <div className="container-xl p-5 px-2">
+            <Container className="p-5">
                 <Row>
                     <div className="acompanhamentoImagens col-lg-6 col-md-12 p-4">
                         <Row>
@@ -46,7 +46,7 @@ export default function AboutTreatment() {
                         </SectionText>
                     </div>
                 </Row>
-            </div>
+            </Container>
         </section>
     );
 }
