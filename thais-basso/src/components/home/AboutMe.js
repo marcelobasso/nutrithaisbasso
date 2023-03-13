@@ -30,7 +30,7 @@ export default function AboutMe() {
                         </div>
                         <div className="aboutMeText col-lg-1 col-md-0"></div>
                         <div className="col-lg-4 col-md-12 p-4">
-                            <GatsbyImage image={image} className="rounded-circle" alt="Profile image" />
+                            <GatsbyImage image={image} className="rounded-circle shadow-custom" alt="Profile image" />
                         </div>
                     </Row>
                 </Container>

@@ -30,3 +30,15 @@ nav ul a.go-right:hover:after {
     width: 100%;
     left: 0;
 }
+
+nav a i.fab {
+    color: var(--pallete-violet-dark);
+}
+
+nav i.fab:hover {
+    transform: scale(1.1);
+}
+
+nav i {
+    transition: all .5s;
+}

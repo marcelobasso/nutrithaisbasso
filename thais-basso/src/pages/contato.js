@@ -1,12 +1,12 @@
-import { graphql } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import React from 'react';
-import Header from '../components/common/Header';
-import { Container, PageTitle, Row, SectionTitle, CallToAction } from '../components/common/interface/UI';
-import Layout from '../components/common/Layout';
-import Seo from '../components/common/Seo';
-import ContactBox from '../components/contato/ContactBox';
-import '../styles/contato.css';
+import { graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import React from "react";
+import Header from "../components/common/Header";
+import { Container, PageTitle, Row, SectionTitle, CallToAction } from "../components/common/interface/UI";
+import Layout from "../components/common/Layout";
+import Seo from "../components/common/Seo";
+import ContactBox from "../components/contato/ContactBox";
+import "../styles/contato.css";
 
 export const Head = () => <Seo title="Contato - Thaís Basso Nutricionista" />;
 
@@ -15,44 +15,46 @@ export default function contato({ data }) {
     const contactBoxes = [
         {
             icon: <GatsbyImage image={dietboxLogo} className="icon" alt="Dietbox icon" />,
-            name: 'Dietbox',
-            content: 'Thaís Basso Nutricionista',
+            name: "Dietbox",
+            content: "Thaís Basso Nutricionista",
             action: {
                 text: "Visite o perfil",
                 href: "https://dietbox.me/pt-BR/thais-basso",
-                alt: "Perfil no Dietbox"
-            }
+                alt: "Perfil no Dietbox",
+            },
         },
         {
             icon: <i className="fab fa-whatsapp icon"></i>,
-            name: 'Whatsapp',
-            content: '(54) 99622-4005',
+            name: "Whatsapp",
+            content: "(54) 99622-4005",
             action: {
                 text: "Agende sua consulta!",
                 href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
-                alt: "Whatsapp link"
-            }
+                alt: "Whatsapp link",
+            },
         },
         {
             icon: <i className="far fa-envelope icon"></i>,
-            name: 'Email',
-            content: 'email@provedor.com.br',
+            name: "Email",
+            content: "email@provedor.com.br",
             action: {
                 text: "Entre em contato",
                 href: "mailto:email@provedor.com.br",
-                alt: "Endereço de email"
-            }
-        }   
+                alt: "Endereço de email",
+            },
+        },
     ];
 
     return (
         <Layout>
             <Header title="Entre em contato" subtitle="Informações de contato e endereço do consultório." />
-            
+
             <section className="contato">
                 <Container className="py-5">
                     <Row>
-                        {contactBoxes.map((box, index) => <ContactBox key={index} box={box}/>)}
+                        {contactBoxes.map((box, index) => (
+                            <ContactBox key={index} box={box} />
+                        ))}
                     </Row>
                 </Container>
             </section>
@@ -85,7 +87,7 @@ export default function contato({ data }) {
                                 allowFullScreen=""
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
-                                title='Endereço do consultorio - Google Maps'
+                                title="Endereço do consultorio - Google Maps"
                             ></iframe>
                         </div>
                     </Row>

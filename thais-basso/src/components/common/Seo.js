@@ -20,7 +20,7 @@ export default function Seo(props) {
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="canonical" href="https://thaisbasso.com" />
-            <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+            <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
             <title>{props.title || title}</title>
             <meta name="description" content={props.description || description} />
         </>

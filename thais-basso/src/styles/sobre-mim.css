@@ -2,3 +2,33 @@ section.bio img {
     width: 100%;
     border-radius: 24px;
 }
+
+section.personal-links i {
+    margin-right: 8px;
+    width: 20px;
+}
+
+section.personal-links a {
+    color: var(--mdb-body-color);
+}
+
+section.personal-links a:hover {
+    color: var(--mdb-link-color);
+}
+
+section.cv .cv-items .item h4 {
+    margin-bottom: .3rem;
+}
+
+section.cv .cv-items .item .period {
+    font-size: .8rem;
+}
+
+section.cv .cv-items .item a span {
+    display: inline-block;
+    margin-bottom: .8rem;
+}
+
+section.cv .cv-items .item a:hover {
+    text-decoration: underline;
+}

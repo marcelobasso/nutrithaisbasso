@@ -70,18 +70,6 @@ h1, h2, h3 {
     width: 160px;
 }
 
-a i.fab {
-    color: var(--pallete-violet-dark);
-}
-
-i.fab {
-    transition: transform .5s;
-}
-
-i.fab:hover {
-    transform: scale(1.1);
-}
-
 i.fa-15x {
     font-size: 1.3rem;
 }
@@ -90,8 +78,9 @@ i.fa-15x {
     color: var(--pallete-violet-dark);
 }
 
-div.page-content {
-    margin-top: 100px;
+.shadow-custom {
+    border-radius: 24px;
+    box-shadow: 20px 20px 0px 5px var(--pallete-violet-dark) !important;
 }
 
 .iFEZzR {

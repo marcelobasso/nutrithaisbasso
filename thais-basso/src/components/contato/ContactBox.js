@@ -4,8 +4,8 @@ import { CallToAction } from '../common/interface/UI';
 export default function ContactBox(props) {
     const box = props.box;
     return (
-        <div className="col-lg-4 col-md-12 p-3 box">
-            <div className={`${box.name} p-4`}>
+        <div className="col-lg-4 col-md-12 p-4 box">
+            <div className={`${box.name} shadow-custom p-4`}>
                 {box.icon}
                 <p className="mt-4">{box.name}</p>
                 <p className="mt-2">
