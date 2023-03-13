@@ -1,21 +1,9 @@
-import { graphql, Link, useStaticQuery } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 import React from 'react';
 import { Container } from './common/interface/UI';
 import "./Navbar.css";
 
 export default function Navbar() {
-    const { logo } = useStaticQuery(graphql`
-        query Logo {
-            logo: file(relativePath: { eq: "logos/logo-with-name.png" }) {
-                childImageSharp {
-                    gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
-                }
-            }
-        }
-    `);
-    const image = getImage(logo.childImageSharp.gatsbyImageData);
-
     const PAGES = [
         {
             name: 'Home',
@@ -70,7 +58,7 @@ export default function Navbar() {
                 </button>
 
                 <Link to="/" alt="Página inicial">
-                    <GatsbyImage image={image} alt="Logo Thaís Basso nutricionista" className="logo" />
+                    <img src="/logo-with-name.png" alt="Logo Thaís Basso nutricionista" className="logo" />
                 </Link>
 
                 <div id="navbarSupportedContent" className="collapse navbar-collapse flex-grow-0">
