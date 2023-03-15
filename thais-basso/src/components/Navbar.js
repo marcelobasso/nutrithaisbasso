@@ -16,16 +16,17 @@ export default function Navbar() {
             ariaLable: 'Informações sobre mim',
         },
         {
-            name: 'Consultório',
-            to: '/consultorio',
-            ariaLabel: 'Informações sobre o consultório',
-        },
-        {
             name: 'Contato',
             to: '/contato',
             ariaLabel: 'Informações de contato',
         },
     ];
+
+    // {
+    //     name: 'Consultório',
+    //     to: '/consultorio',
+    //     ariaLabel: 'Informações sobre o consultório',
+    // },
 
     const SOCIAL_LINKS = [
         {
@@ -75,7 +76,7 @@ export default function Navbar() {
 
                 <div id="socialLinks" className="d-flex align-items-center d-none d-lg-block">
                     {SOCIAL_LINKS.map((page, index) => (
-                        <a href={page.href} alt={page.alt} target="_blank" key={index}>
+                        <a href={page.href} alt={page.alt} target="_blank" rel="noopener" key={index}>
                             <i className={`fab ${page.icon} fa-15x px-2`} />
                         </a>
                     ))}

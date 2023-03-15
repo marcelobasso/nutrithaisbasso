@@ -51,7 +51,7 @@ export default function sobreMim({ data }) {
                 name: "portfolio",
                 icon: "fas fa-book-reader",
                 content: "Portfólio profissional",
-                href: "#",
+                href: "/documents/portfolio-thais-basso.pdf",
             },
         ],
     ];

@@ -1,7 +1,7 @@
 {
-    "name": "gatsby-starter-hello-world",
+    "name": "thais basso nutricionista funcional e comportamental",
     "private": true,
-    "description": "A simplified bare-bones starter for Gatsby",
+    "description": "Um site profissional desenvolvido com gatsby, react, e material design bootstrap",
     "version": "0.1.0",
     "license": "0BSD",
     "scripts": {
@@ -26,9 +26,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+        "url": "https://github.com/marceloBasso/nutrithaisbasso"
     },
     "bugs": {
-        "url": "https://github.com/gatsbyjs/gatsby/issues"
+        "url": "https://github.com/marceloBasso/nutrithaisbasso/issues"
     }
 }

@@ -26,7 +26,7 @@ export default function AboutMe() {
                     <Row>
                         <div className="aboutMeText col-lg-7 col-md-12">
                             <Section title={<>Venha comigo <u>revolucionar a nutrição</u></>} content="Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. Vem conhecer melhor meu trabalho e ver como a nutrição pode mudar a sua?" />
-                            <CallToAction text="Agende sua consulta!" href="https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005" alt="Whatsapp link" target="_blank" className="d-block w-50" />
+                            <CallToAction text="Agende sua consulta!" href="https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005" alt="Whatsapp link" target="_blank" rel="noopener" className="d-block w-50" />
                         </div>
                         <div className="aboutMeText col-lg-1 col-md-0"></div>
                         <div className="col-lg-4 col-md-12 p-4">
