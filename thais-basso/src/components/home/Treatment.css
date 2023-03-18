@@ -1,0 +1,20 @@
+section.treatment img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+section.treatment .gatsby-image-wrapper {
+    height: 220px;
+    margin-left: auto;
+}
+
+section.treatment .gatsby-image-wrapper.left img {
+    margin-left: auto;
+}
+
+section.treatment div.box {
+    display: block;
+    height: 80px;
+}

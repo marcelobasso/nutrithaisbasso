@@ -2,7 +2,7 @@ import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import React from "react";
 import Header from "../components/common/Header";
-import { Container, PageTitle, Row, SectionTitle, CallToAction } from "../components/common/interface/UI";
+import { Container, Row, SectionTitle, CallToAction } from "../components/common/interface/UI";
 import Layout from "../components/common/Layout";
 import Seo from "../components/common/Seo";
 import ContactBox from "../components/contato/ContactBox";
@@ -28,7 +28,7 @@ export default function contato({ data }) {
             name: "Whatsapp",
             content: "(54) 99622-4005",
             action: {
-                text: "Agende sua consulta!",
+                text: "Marque sua consulta!",
                 href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
                 alt: "Whatsapp link",
             },
@@ -38,7 +38,7 @@ export default function contato({ data }) {
             name: "Email",
             content: "email@provedor.com.br",
             action: {
-                text: "Entre em contato",
+                text: "Envie um email",
                 href: "mailto:email@provedor.com.br",
                 alt: "Endereço de email",
             },

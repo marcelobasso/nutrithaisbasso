@@ -25,7 +25,7 @@ export default function AboutMe() {
                 <Container className="justify-content-between align-items-center">
                     <Row>
                         <div className="aboutMeText col-lg-7 col-md-12">
-                            <Section title={<>Venha comigo <u>revolucionar a nutrição</u></>} content="Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. Vem conhecer melhor meu trabalho e ver como a nutrição pode mudar a sua?" />
+                            <Section title={<>Venha comigo <u>revolucionar a nutrição</u></>} content="Sou a Thaís Basso, nutricionista pós graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. Estou sempre buscando conhecimento e novidades na área, possuo mais de 10 cursos em áreas específicas da nutrição que agregam e enriquecem minha prática clínica." />
                             <CallToAction text="Agende sua consulta!" href="https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005" alt="Whatsapp link" target="_blank" rel="noopener" className="d-block w-50" />
                         </div>
                         <div className="aboutMeText col-lg-1 col-md-0"></div>

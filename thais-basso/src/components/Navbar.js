@@ -1,24 +1,25 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import { Container } from './common/interface/UI';
+import { Link } from "gatsby";
+import React from "react";
+import { Container } from "./common/interface/UI";
 import "./Navbar.css";
 
 export default function Navbar() {
+
     const PAGES = [
         {
-            name: 'Home',
-            to: '/',
-            ariaLabel: 'Página inicial',
+            name: "Home",
+            to: "/",
+            ariaLabel: "Página inicial",
         },
         {
-            name: 'Sobre mim',
-            to: '/sobre-mim',
-            ariaLable: 'Informações sobre mim',
+            name: "Sobre mim",
+            to: "/sobre-mim",
+            ariaLable: "Informações sobre mim",
         },
         {
-            name: 'Contato',
-            to: '/contato',
-            ariaLabel: 'Informações de contato',
+            name: "Contato",
+            to: "/contato",
+            ariaLabel: "Informações de contato",
         },
     ];
 
@@ -30,29 +31,29 @@ export default function Navbar() {
 
     const SOCIAL_LINKS = [
         {
-            icon: 'fa-facebook',
-            href: 'https://www.facebook.com/nutricionistathaisb',
-            alt: 'Link do Facebook',
+            icon: "fa-facebook",
+            href: "https://www.facebook.com/nutricionistathaisb",
+            alt: "Link do Facebook",
         },
         {
-            icon: 'fa-instagram',
-            href: 'https://www.instagram.com/nutrithaisbasso/',
-            alt: 'Link do Instagram',
+            icon: "fa-instagram",
+            href: "https://www.instagram.com/nutrithaisbasso/",
+            alt: "Link do Instagram",
         },
         {
-            icon: 'fa-whatsapp',
-            href: 'https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005',
-            alt: 'Link do Whatsapp',
+            icon: "fa-whatsapp",
+            href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
+            alt: "Link do Whatsapp",
         },
         {
-            icon: 'fa-youtube',
-            href: 'https://www.youtube.com/channel/UCACMTraiEAeIf0pZ552PNZg',
-            alt: 'Link do canal do Youtube',
+            icon: "fa-youtube",
+            href: "https://www.youtube.com/channel/UCACMTraiEAeIf0pZ552PNZg",
+            alt: "Link do canal do Youtube",
         },
     ];
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <Container className="justify-content-between">
                 <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fas fa-bars"></i>

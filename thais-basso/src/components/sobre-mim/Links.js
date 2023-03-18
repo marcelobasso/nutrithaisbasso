@@ -16,10 +16,8 @@ export default function Links(props) {
 
     return (
         <>
-            <div class="col-lg-1 col-md-0"></div>
-            <div className="col-lg-5 col-md-12">{mountGroup(props.links[0])}</div>
-            <div className="col-lg-5 col-md-12">{mountGroup(props.links[1])}</div>
-            <div class="col-lg-1 col-md-0"></div>
+            <div className="col-lg-6 col-md-12">{mountGroup(props.links[0])}</div>
+            <div className="col-lg-6 col-md-12">{mountGroup(props.links[1])}</div>
         </>
     );
 }

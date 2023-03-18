@@ -3,6 +3,10 @@ section.bio img {
     border-radius: 24px;
 }
 
+svg {
+    width: 100% !important;
+}
+
 section.personal-links i {
     margin-right: 8px;
     width: 20px;

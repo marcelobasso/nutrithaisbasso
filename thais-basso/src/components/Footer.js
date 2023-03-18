@@ -1,7 +1,7 @@
-import { graphql, useStaticQuery } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import React from 'react';
-import { Container } from './common/interface/UI';
+import { graphql, Link, useStaticQuery } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import React from "react";
+import { Container } from "./common/interface/UI";
 import "./Footer.css";
 
 export default function Footer() {
@@ -30,6 +30,10 @@ export default function Footer() {
                         <p className="mb-2">Rua Buarque de Macedo, 4146 - Sala 204</p>
                         <p className="mb-2">Bairro Centro - 95185-000</p>
                         <p className="mb-2">Carlos Barbosa/RS</p>
+                        <br />
+                        <p className="mb-0">
+                            <Link to="/contato">Veja outras formas de contato</Link>
+                        </p>
                     </div>
                     <div className="footerLogo col-lg-6 col-md-12 mb-4 mb-md-0 d-flex justify-content-end align-items-center">
                         <GatsbyImage image={image} className="logo" alt="Logo Thaís Basso nutricionista" />
