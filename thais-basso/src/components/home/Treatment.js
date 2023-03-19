@@ -6,11 +6,9 @@ import Section from "../common/Section.js";
 import "./Treatment.css";
 
 export default function Treatment() {
-    const constructImages = listName => {
-        return queryData[listName].edges.map((edge, index) => (
-            <GatsbyImage alt="Prato ilustrativo" image={getImage(edge.node.childImageSharp.gatsbyImageData)} className={index < 2 && "left"} />
-        ));
-    }
+    const constructImages = (listName) => {
+        return queryData[listName].edges.map((edge, index) => <GatsbyImage alt="Prato ilustrativo" image={getImage(edge.node.childImageSharp.gatsbyImageData)} className={index < 2 && "left"} />);
+    };
 
     const queryData = useStaticQuery(graphql`
         query ImagesTreatment {
@@ -51,7 +49,7 @@ export default function Treatment() {
                     </p>
                 </>
             ),
-            images: constructImages('plates'),
+            images: constructImages("plates"),
         },
         {
             title: "O que vou ganhar com o tratamento nutricional?",
@@ -62,7 +60,7 @@ export default function Treatment() {
                     <p>Você estará investindo no seu eu do futuro, prevenindo doenças e sentindo-se mais disposto e produtivo no seu dia a dia.</p>
                 </>
             ),
-            images: constructImages('foods'),
+            images: constructImages("foods"),
         },
     ];
 

@@ -9,7 +9,7 @@ const PageTitle = (props) => (
 
 const SectionTitle = (props) => <h3 className={`text mb-4 p-0 fs-1gg ${props.className || ""}`}>{props.children}</h3>;
 
-const SectionText = (props) => <p className="text mb-4 p-0">{props.children}</p>;
+const SectionText = (props) => <p className={`text mb-4 p-0 ${props.className}`}>{props.children}</p>;
 
 const Row = (props) => <div className={`row ${props.className || ""}`}>{props.children}</div>;
 
