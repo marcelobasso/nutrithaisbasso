@@ -41,12 +41,10 @@
     transition: all .5s;
     color: var(--mdb-body-color);
     background-color: var(--pallete-violet-light);
-    /* background-color: var(--pallete-green); */
 }
 
 .btn:hover {
     color: white;
-    background-color: var(--pallete-violet-light-hov);
     box-shadow: var(--mdb-btn-hover-box-shadow);
 }
 
