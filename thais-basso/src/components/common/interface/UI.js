@@ -20,7 +20,7 @@ const CallToAction = (props) => {
 
     return (
         <a className={props.className} href={props.href || whatsappLink} alt={props.alt || false} target={props.target || false}>
-            <button type="button" className={`btn fs-6 text-center w-75`}>
+            <button type="button" className={`btn fs-6 text-center w-75 ${props.buttonClassName}`}>
                 {props.text || "Marque sua consulta"}
             </button>
         </a>

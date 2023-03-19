@@ -22,28 +22,28 @@ export default function Features(data) {
         },
         {
             title: "Doenças Crônicas Não Transmissíveis",
-            text: "Possui uma dificuldade de alimentação que limita suas opções? Pois saiba que você não precisa se privar, pra tudo existe uma alternativa e eu quero te ajudar a encontrar a que mais te agrade.",
+            text: <>Possui uma dificuldade de alimentação que limita suas opções? Pois saiba que você não precisa se privar, pra todo alimento existe uma <span className='green-underline'>alternativa</span> e eu quero te ajudar a encontrar a que mais te agrade.</>,
             image: <BetterWorld />,
-            action: "Deixar de me privar"
+            action: "Deixar de me limitar"
         },
         {
             title: "Saúde intestinal",
             text: "Tenha um estino regulado e saudável melhorando a sua alimentação. Posso te ensinar a consumir alimentos que te ajudarão a ter um ritmo intestinal confortável e saudável, melhorando a sua rotina.",
             image: <MintTea />,
-            action: "Regular meu corpo"
+            action: "Regular meu intestino"
         }
     ];
 
     return (
         <section className="features py-5">
             <Container>
-                <SectionTitle className="text-center mb-5 pb-5">Conheça alguns dos meus diferenciais</SectionTitle>
+                <SectionTitle className="text-center mb-5 pb-5">Conheça algumas das minhas <span className="green-underline">especializações</span></SectionTitle>
                 {features.map((feature, index) => (
-                    <Row key={index} className={`py-3 ${index % 2 && "flex-row-reverse"}`}>
+                    <Row key={index} className={`py-5 ${index % 2 && "flex-row-reverse"}`}>
                         <div className="col-lg-6 col-md-12 d-flex flex-column justify-content-center px-5">
                             <h4 className="mb-4"><b>{feature.title}</b></h4>
                             <p>{feature.text}</p>
-                            <CallToAction text={feature.action} />
+                            {/* <CallToAction text={feature.action} buttonClassName="btn-green" /> */}
                         </div>
                         <div className="col-lg-6 col-md-12 px-5 d-flex justify-content-center">
                             <div className="w-75">

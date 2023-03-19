@@ -6,6 +6,8 @@ import AboutMe from '../components/home/AboutMe';
 import GoogleEvaluations from '../components/home/GoogleEvaluations';
 import Treatment from '../components/home/Treatment';
 import Features from '../components/home/Features';
+import SpecialFeatures from '../components/home/SpecialFeatures';
+import SocialProof from '../components/home/SocialProof';
 
 export default function Home({ data }) {
     return (
@@ -14,9 +16,9 @@ export default function Home({ data }) {
             <AboutMe />
             <Treatment />
             <Features />
-            <GoogleEvaluations /> 
-            {/* change for social proof component */}
-            
+            <SpecialFeatures />
+            <SocialProof />
+            {/* <GoogleEvaluations />  */}
         </Layout>
     );
 }

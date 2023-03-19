@@ -43,9 +43,28 @@
     background-color: var(--pallete-violet-light);
 }
 
+.btn.btn-green {
+    background-color: var(--pallete-green);
+}
+
+.btn.btn-green:hover {
+    background-color: var(--pallete-green);
+}
+
+.btn-pink {
+    background-color: var(--pallete-pink);
+}
+
 .btn:hover {
     color: white;
+    filter: brightness(90%);
+    background-color: var(--pallete-violet-light);
     box-shadow: var(--mdb-btn-hover-box-shadow);
+}
+
+span.green-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--pallete-green);
 }
 
 body {
