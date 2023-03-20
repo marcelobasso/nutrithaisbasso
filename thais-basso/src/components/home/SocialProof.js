@@ -66,7 +66,7 @@ export default function SocialProof() {
                         <div className="d-flex align-items-center flex-column">
                             {opinions.map((opinion, index) => (
                                 <div key={index} className="opinion my-4 text-center">
-                                    <p className="p-3">{opinion.text}</p>
+                                    <p className="p-3">"{opinion.text}"</p>
                                     <a href={opinion.link}>
                                         <p>{opinion.name}</p>
                                     </a>

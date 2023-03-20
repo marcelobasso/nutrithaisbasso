@@ -3,6 +3,10 @@ section.bio img {
     border-radius: 24px;
 }
 
+section.bio svg {
+    height: fit-content;
+}
+
 svg {
     width: 100% !important;
 }

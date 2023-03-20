@@ -1,10 +1,12 @@
 import React from "react";
-import { CallToAction, Container, Row, SectionTitle } from "../common/interface/UI";
+import { CallToAction, Container, Row } from "../common/interface/UI";
 import "./Features.css";
 import SuperWoman from "../../images/undraw/undraw_super_woman.svg";
 import FishBowl from "../../images/undraw/undraw_fish_bowl.svg";
 import BetterWorld from "../../images/undraw/undraw_a_better_world.svg";
 import MintTea from "../../images/undraw/undraw_mint_tea.svg";
+import { Link } from "gatsby";
+import Section from "../common/Section";
 
 export default function Features(data) {
     const features = [
@@ -37,7 +39,8 @@ export default function Features(data) {
     return (
         <section className="features py-5">
             <Container>
-                <SectionTitle className="text-center mb-5 pb-5">Conheça algumas das minhas <span className="green-underline">especializações</span></SectionTitle>
+                <Section className="text-center" title={<>Conheça algumas das minhas <span className="green-underline">especializações</span></>} content={<>Algumas das minhas especializações mais atuais.<br /> Para conhecer minha formação melhor <Link to="/sobre-mim">acesse a página "sobre mim"</Link></>} />
+                <div className="mb-5" />
                 {features.map((feature, index) => (
                     <Row key={index} className={`py-5 ${index % 2 && "flex-row-reverse"}`}>
                         <div className="col-lg-6 col-md-12 d-flex flex-column justify-content-center px-5">

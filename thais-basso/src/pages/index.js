@@ -8,6 +8,8 @@ import Treatment from '../components/home/Treatment';
 import Features from '../components/home/Features';
 import SpecialFeatures from '../components/home/SpecialFeatures';
 import SocialProof from '../components/home/SocialProof';
+import Woman from '../images/undraw/undraw_woman.svg';
+import ActionBanner from '../components/common/ActionBanner';
 
 export default function Home({ data }) {
     return (
@@ -19,6 +21,7 @@ export default function Home({ data }) {
             <SpecialFeatures />
             <SocialProof />
             {/* <GoogleEvaluations />  */}
+            <ActionBanner text="Relaxe e venha comigo desvendar uma forma mais saudável de se alimentar" image={<Woman />} />
         </Layout>
     );
 }
