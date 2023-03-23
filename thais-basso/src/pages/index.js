@@ -10,11 +10,13 @@ import SpecialFeatures from '../components/home/SpecialFeatures';
 import SocialProof from '../components/home/SocialProof';
 import Woman from '../images/undraw/undraw_woman.svg';
 import ActionBanner from '../components/common/ActionBanner';
+import Flowery from '../components/home/Flowery';
 
 export default function Home({ data }) {
     return (
         <Layout>
             <Header title="Thaís Basso" subtitle="Nutricionista funcional e comportamental" />
+            <Flowery />
             <AboutMe />
             <Treatment />
             <Features />
