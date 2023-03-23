@@ -37,25 +37,25 @@
     --text-normal-size: 1rem;
 }
 
-.btn {
+button.btn-custom {
     transition: all .5s;
     color: var(--mdb-body-color);
     background-color: var(--pallete-violet-light);
 }
 
-.btn.btn-green {
+button.btn button.btn-green {
     background-color: var(--pallete-green);
 }
 
-.btn.btn-green:hover {
+button.btn button.btn-green:hover {
     background-color: var(--pallete-green);
 }
 
-.btn-pink {
+button.btn-pink {
     background-color: var(--pallete-pink);
 }
 
-.btn:hover {
+button.btn:hover {
     color: white;
     filter: brightness(90%);
     background-color: var(--pallete-violet-light);
