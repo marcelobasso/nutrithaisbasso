@@ -1,5 +1,5 @@
 .flowery_image {
-    position: absolute;
+    position: absolute !important;
     top: 100px;
     left: 0;
     width: 16vw;
