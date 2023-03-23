@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+    pathPrefix: "/thais-basso-demo",
     plugins: [
         `gatsby-plugin-image`,
         `gatsby-plugin-sharp`,
@@ -26,12 +27,13 @@ module.exports = {
                 path: `${__dirname}/src/`,
             },
         },
-        "gatsby-plugin-react-svg"
+        "gatsby-plugin-react-svg",
     ],
 
     siteMetadata: {
         title: "Thaís Basso - Nutricionista funcional e comportamental",
-        description: "Nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Apaixonada pela minha profissão e como ela pode mudar a vida das pessoas.",
+        description:
+            "Nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Apaixonada pela minha profissão e como ela pode mudar a vida das pessoas.",
         canonical: "https://thaisbasso.com",
         author: "marceloBasso",
     },

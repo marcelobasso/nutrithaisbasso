@@ -60,7 +60,7 @@ export default function Navbar() {
                 </button>
 
                 <Link to="/" alt="Página inicial">
-                    <img src="/logo-with-name.png" alt="Logo Thaís Basso nutricionista" className="logo" />
+                    <img src="/icons/logo-with-name.png" alt="Logo Thaís Basso nutricionista" className="logo" />
                 </Link>
 
                 <div id="navbarSupportedContent" className="collapse navbar-collapse flex-grow-0">

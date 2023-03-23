@@ -5,6 +5,8 @@
     "version": "0.1.0",
     "license": "0BSD",
     "scripts": {
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+        "sync": "git add . && git commit -m 'sync repo' && git push",
         "build": "gatsby build",
         "develop": "gatsby develop",
         "start": "gatsby develop",
@@ -32,6 +34,7 @@
         "url": "https://github.com/marceloBasso/nutrithaisbasso/issues"
     },
     "devDependencies": {
+        "gh-pages": "^5.0.0",
         "svg-react-loader": "^0.4.6"
     }
 }
