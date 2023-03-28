@@ -8,9 +8,10 @@ import Treatment from '../components/home/Treatment';
 import Features from '../components/home/Features';
 import SpecialFeatures from '../components/home/SpecialFeatures';
 import SocialProof from '../components/home/SocialProof';
-import Woman from '../images/undraw/undraw_woman.svg';
+import Woman from '../images/undraw/undraw_woman_white.svg';
 import ActionBanner from '../components/common/ActionBanner';
 import Flowery from '../components/home/Flowery';
+import Portfolio from '../components/home/Portfolio';
 
 export default function Home({ data }) {
     return (
@@ -19,6 +20,7 @@ export default function Home({ data }) {
             <Flowery />
             <AboutMe />
             <Treatment />
+            <Portfolio />
             <Features />
             <SpecialFeatures />
             <SocialProof />

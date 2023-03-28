@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row } from "../common/interface/UI";
-import Section from "../common/Section";
+import { Container, Row, SectionTitle } from "../common/interface/UI";
 import "./SpecialFeatures.css";
 
 export default function SpecialFeatures() {
@@ -24,12 +23,12 @@ export default function SpecialFeatures() {
     ]
 
     return (
-        <section className="special-features my-3">
+        <section className="special-features my-5">
             <Container>
-                <Section className="text-center" title="E como vamos fazer tudo isso?" content=""/>
+                <SectionTitle className="text-center">E como vamos fazer tudo isso?</SectionTitle> 
                 <Row className="p-3">
                     {specialFeatures.map((feature, index) => (
-                        <div key={index} className="col-lg-4 col-md-12 p-4">
+                        <div key={index} className="col-lg-4 col-md-12 px-4">
                             <div className="special-feature-box d-flex justify-content-center align-items-center w-100 p-3 mb-4">
                                 <i className={`${feature.icon} fa-4x`} />
                             </div>

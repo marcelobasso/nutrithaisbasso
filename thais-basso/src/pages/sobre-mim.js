@@ -7,10 +7,10 @@ import "../styles/sobre-mim.css";
 import Links from "../components/sobre-mim/Links";
 import CVList from "../components/sobre-mim/CVList";
 import OnlineResume from "../images/undraw/undraw_online_resume.svg";
-import ButtonStyle from "../images/undraw/undraw_button_style.svg";
+import ButtonStyle from "../images/undraw/undraw_button_style_white.svg";
 import ActionBanner from "../components/common/ActionBanner";
 
-export const Head = () => <Seo title="Sobre mim - Thaís Basso Nutricionista" />;
+export const Head = () => <Seo title="Sobre mim | Thaís Basso Nutricionista" />;
 
 export default function sobreMim() {
     const sobreMimLinks = [
@@ -51,7 +51,7 @@ export default function sobreMim() {
                 name: "portfolio",
                 icon: "fas fa-book-reader",
                 content: "Portfólio profissional",
-                href: "/documents/portfolio-thais-basso.pdf",
+                href: "/documents/portfolio-thais-basso-2023.pdf",
             },
         ],
     ];
@@ -157,7 +157,7 @@ export default function sobreMim() {
             </section>
 
             <ActionBanner
-                text="Agora que você conhece um pouco mais sobre minha formação profissional, que tal marcarmos uma avaliação?"
+                text="Agora que você conhece um pouco mais sobre mim, que tal marcarmos uma avaliação?"
                 CallToAction="Marcar uma avaliação"
                 image={<ButtonStyle />}
             />

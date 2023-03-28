@@ -4,10 +4,10 @@ import "./Header.css";
 
 export default function Header(props) {
     return (
-        <section className="header">
+        <header className="header">
             <Container className="pt-5 justify-content-center">
                 <PageTitle title={props.title} subtitle={props.subtitle} />
             </Container>
-        </section>
+        </header>
     );
 }

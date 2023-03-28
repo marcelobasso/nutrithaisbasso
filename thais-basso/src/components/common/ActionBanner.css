@@ -1,0 +1,14 @@
+div.action-banner-image-container {
+    height: fit-content;
+}
+
+div.action-banner-image-container svg{
+    height: 400px;
+}
+
+section.action-banner div.action-banner-box {
+    padding: 40px;
+    border-radius: 24px;
+    background-color: var(--pallete-violet-dark);
+    color: white;
+}

@@ -1,0 +1,18 @@
+section.social-proof div.opinion {
+    border-radius: 24px;
+    padding: 32px;
+    border: 1px var(--pallete-portfolio-second) solid;
+    transition: all .5s;
+}
+
+section.social-proof div.opinion .opinion-content {
+    text-align: left;
+}
+
+section.social-proof div.opinion:hover {
+    transform: scale(1.03);
+}
+
+section.social-proof a {
+    color: var(--mdb-body-color);
+}

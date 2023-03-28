@@ -1,21 +1,22 @@
 import React from "react";
 import { CallToAction, Container, Row, SectionTitle } from "./interface/UI";
+import "./ActionBanner.css";
 
 export default function ActionBanner(props) {
     return (
-        <section className="sobre-mim-call-to-action my-4">
+        <section className="action-banner my-5">
             <Container>
-                <Row>
-                    <div className="col-lg-6 col-md-12">
-                        <div className="d-flex justify-content-center align-item-center flex-column h-100 p-5">
-                            <SectionTitle>{props.text}</SectionTitle>
+                <div className="action-banner-box text-center white">
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                        <div className="action-banner-image-container mb-5">
+                            {props.image}
+                        </div>
+                        <SectionTitle className="mx-5">{props.text}</SectionTitle>
+                        <div className="w-50 text-center">
                             <CallToAction text={props.CallToAction} className="mt-4" />
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 px-5">
-                        {props.image}
-                    </div>
-                </Row>
+                </div>
             </Container>
         </section>
     );

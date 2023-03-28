@@ -8,7 +8,7 @@ import Seo from "../components/common/Seo";
 import ContactBox from "../components/contato/ContactBox";
 import "../styles/contato.css";
 
-export const Head = () => <Seo title="Contato - Thaís Basso Nutricionista" />;
+export const Head = () => <Seo title="Contato | Thaís Basso Nutricionista" />;
 
 export default function contato({ data }) {
     const dietboxLogo = getImage(data.logo.childImageSharp.gatsbyImageData);

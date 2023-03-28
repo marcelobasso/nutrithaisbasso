@@ -1,0 +1,9 @@
+section.portfolio div.white {
+    background-color: var(--pallete-violet-light-hov);
+    color: white;
+    border-radius: 24px;
+}
+
+section.portfolio .container h3 {
+    color: white;
+}

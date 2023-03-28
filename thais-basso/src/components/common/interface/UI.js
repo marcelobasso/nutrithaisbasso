@@ -33,7 +33,7 @@ const CallToAction = (props) => {
         >
             <button
                 type="button"
-                className={`btn btn-custom fs-6 text-center w-75 ${props.buttonClassName || ""}`}
+                className={`btn btn-custom fs-6 text-center ${props.buttonClassName || ""}`}
             >
                 {props.text || "Marque sua consulta"}
             </button>

@@ -43,11 +43,15 @@ button.btn-custom {
     background-color: var(--pallete-violet-light);
 }
 
-button.btn button.btn-green {
+.white button.btn-custom {
+    color: white;
+}
+
+button.btn.btn-green {
     background-color: var(--pallete-green);
 }
 
-button.btn button.btn-green:hover {
+button.btn.btn-green:hover {
     background-color: var(--pallete-green);
 }
 
@@ -57,9 +61,13 @@ button.btn-pink {
 
 button.btn:hover {
     color: white;
-    filter: brightness(90%);
+    filter: brightness(105%);
     background-color: var(--pallete-violet-light);
     box-shadow: var(--mdb-btn-hover-box-shadow);
+}
+
+.white button.btn-custom:hover {
+    color: var(--mdb-body-color);
 }
 
 span.green-underline {

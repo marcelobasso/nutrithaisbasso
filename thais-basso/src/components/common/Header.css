@@ -1,17 +1,17 @@
-section.header h1, 
-section.header h2 {
+header.header h1, 
+header.header h2 {
     font-family: var(--main-font);
     color: var(--pallete-portfolio-first);
 }
 
-section.header h1 .title,
-section.header h2 .title {
+header.header h1 .title,
+header.header h2 .title {
     line-height: 96px;
     font-weight: bold;
     font-size: var(--title-font-size);
 }
 
-section.header h1 .subtitle,
-section.header h2 .subtitle {
+header.header h1 .subtitle,
+header.header h2 .subtitle {
     font-size: var(--subtitle-font-size);
 }

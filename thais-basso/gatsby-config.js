@@ -31,9 +31,8 @@ module.exports = {
     ],
 
     siteMetadata: {
-        title: "Thaís Basso - Nutricionista funcional e comportamental",
-        description:
-            "Nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Apaixonada pela minha profissão e como ela pode mudar a vida das pessoas.",
+        title: "Thaís Basso | Nutricionista funcional e comportamental",
+        description: "Nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Apaixonada pela minha profissão e como ela pode mudar a vida das pessoas.",
         canonical: "https://thaisbasso.com",
         author: "marceloBasso",
     },
