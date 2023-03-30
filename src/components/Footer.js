@@ -1,21 +1,10 @@
-import { graphql, Link, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
 import React from "react";
 import { Container } from "./common/interface/UI";
 import "./Footer.css";
 
 export default function Footer() {
-    const { logo } = useStaticQuery(graphql`
-        query FooterImage {
-            logo: file(relativePath: { eq: "logos/logo.png" }) {
-                childImageSharp {
-                    gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
-                }
-            }
-        }
-    `);
-
-    const image = getImage(logo.childImageSharp.gatsbyImageData);
 
     return (
         <footer className="text-center text-lg-start">
@@ -36,7 +25,7 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className="footerLogo col-lg-6 col-md-12 mb-4 mb-md-0 d-flex justify-content-end align-items-center">
-                        <GatsbyImage image={image} className="logo" alt="Logo Thaís Basso nutricionista" />
+                        <img src="/thais-basso-nutricionista/icons/logo.png" className="logo" alt="Logo Thaís Basso nutricionista" />
                     </div>
                 </div>
             </div>
