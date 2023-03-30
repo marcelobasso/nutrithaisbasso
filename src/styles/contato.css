@@ -1,31 +1,43 @@
-section#contato div.box {
+section.contato div.box {
     display: block;
     min-height: 300px;
 }
 
-section#contato div.box > div {
-    background-color: var(--pallete-portfolio-second);
+section.contato div.box > div {
     border-radius: 24px;
+    border: 1px var(--pallete-portfolio-first) solid;
+    background-color: white;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    -webkit-box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 18px -7px rgba(0,0,0,0.75);
+
 }
 
-section#contato div.box > div i.icon {
+section.contato div.box > div i.icon {
     font-size: 3.5rem;
-    color: white;
+    color: var(--mdb-body-color);
 }
 
-section#contato div.box > div i.icon:hover {
+section.contato div.box .Dietbox > div {
+    height: 3.5rem;
+    width: 3.5rem;
+    opacity: .7;
+}
+
+section.contato div.box > div i.icon:hover {
     transform: scale(1);
 } 
 
-section#contato div.box > div img.icon {
+section.contato div.box > div img.icon {
     height: calc(3.5 * 16px);
 }
 
-section#contato div.box > div button {
+/* section.contato div.box > div button {
     background-color: var(--pallete-portfolio-first);
     color: white;
     padding: 8px 0px;
@@ -33,14 +45,12 @@ section#contato div.box > div button {
     width: 80%;
     border-radius: 32px;
     font-size: 1rem;
-}
+} */
 
-hr {
-    width: 90%;
-    border-radius: 4px;
-    border: 1px var(--pallete-portfolio-first) solid;
-    opacity: 1;
-}
+div.dietbox > div {
+    height: 3.5rem;
+    width: 4rem;
+} 
 
 section.header.address {
     margin: 0;

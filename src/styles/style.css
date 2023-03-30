@@ -1,3 +1,4 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
 @font-face {
     font-family: 'League Gothic';
     src: url(../fonts/LeagueGothic-Regular.ttf);
@@ -25,15 +26,53 @@
     --pallete-violet: #AD3173;
     --pallete-violet-dark: #472d65;
     --pallete-violet-light: #A2B1DA;
+    --pallete-violet-light-hov: #8c99bd;
     --pallete-pink: #EA85BF;
 
     --pallete-portfolio-first: #493165;
     --pallete-portfolio-second: #ded0e7;
+
+    --title-font-size: 4rem;
+    --subtitle-font-size: 1.3rem;
+    --text-normal-size: 1rem;
 }
 
-.btn:hover {
+button.btn-custom {
+    transition: all .5s;
     color: var(--mdb-body-color);
+    background-color: var(--pallete-violet-light);
+}
+
+.white button.btn-custom {
+    color: white;
+}
+
+button.btn.btn-green {
+    background-color: var(--pallete-green);
+}
+
+button.btn.btn-green:hover {
+    background-color: var(--pallete-green);
+}
+
+button.btn-pink {
+    background-color: var(--pallete-pink);
+}
+
+button.btn:hover {
+    color: white;
+    filter: brightness(105%);
+    background-color: var(--pallete-violet-light);
     box-shadow: var(--mdb-btn-hover-box-shadow);
+}
+
+.white button.btn-custom:hover {
+    color: var(--mdb-body-color);
+}
+
+span.green-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--pallete-green);
 }
 
 body {
@@ -49,126 +88,24 @@ h1, h2, h3 {
 }
 
 .fs-1gg {
-    font-size: 3.5rem !important;
-}
-
-.logo {
-    height: 80px;
+    font-size: 3rem !important;
 }
 
 .logo-big {
-    height: 104px;
-}
-
-.navbar-brand, .navbar-brand img {
-    margin: 0;
-}
-
-a i.fab {
-    color: var(--pallete-violet-dark);
-}
-
-i.fab {
-    transition: transform .5s;
-}
-
-i.fab:hover {
-    transform: scale(1.1);
+    width: 160px;
 }
 
 i.fa-15x {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
-section.header {
-    margin-top: 123px;
+.dark-violet {
+    color: var(--pallete-violet-dark);
 }
 
-section.header h1, 
-section.header h2 {
-    font-family: var(--main-font);
-    color: var(--pallete-portfolio-first);
-}
-
-section.header h1 .title,
-section.header h2 .title {
-    line-height: 96px;
-    font-size: 5.5rem;
-    font-weight: bold;
-}
-
-section.header h1 .subtitle,
-section.header h2 .subtitle {
-    font-size: 1.5rem;
-}
-
-nav ul a {
-    display: inline-block; 
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 10px;
-} 
-
-nav ul a:after {
-    content: '';
-    background: var(--pallete-portfolio-second); 
-    height: 3px;
-    position: absolute;
-    bottom: 0;
-}
-
-/* Underline goes to the right */
-nav ul a.go-right:after { transition: .33s all; width: 0; left: 100%; }
-nav ul a.go-right:hover:after { transition: .33s width; width: 100%; left: 0; }
-
-nav ul a.go-right:hover:after {
-    transition: 0.33s width;
-    width: 100%;
-    left: 0;
-}
-
-section#aboutMe {
-    background-color: var(--pallete-portfolio-second);
-}
-
-section#aboutMe > div {
-    width: 100vw;
-    padding: 8px 1rem;
-}
-
-section#aboutMe div img#profile {
-    box-shadow: 24px 24px var(--pallete-violet-dark);
-    -moz-box-shadow: 24px 24px  var(--pallete-violet-dark);
-    -webkit-box-shadow: 24px 24px  var(--pallete-violet-dark);
-    -o-box-shadow: 24px 24px  var(--pallete-violet-dark);
-    width: 100%;
-}
-
-section#aboutMe div #aboutMeText {
-    padding: 1.5em;
-    padding-right: 52px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-section#aboutMe button {
-    background-color: var(--pallete-green);
-}
-
-section#acompanhamentoNutricional img {
-    object-fit: cover;
-    width: 252px;
-    height: 252px;
+.shadow-custom {
     border-radius: 24px;
-}
-
-section#acompanhamentoNutricional img:not(:first-child) {
-    margin-top: 24px;
-}
-
-section#acompanhamentoNutricional div.box {
-    display: block;
-    height: 80px;
+    box-shadow: 20px 20px 0px 5px var(--pallete-violet-dark) !important;
 }
 
 .iFEZzR {
@@ -178,27 +115,6 @@ section#acompanhamentoNutricional div.box {
     font-weight: normal !important;
 }
 
-footer {
-    background-color: var(--pallete-portfolio-second);
-    color: white;
-}
-
-footer div#footerHi {
-    background-color: var(--pallete-violet-dark);
-}
-
-i.heart {
-	color: white;
-	animation: beat 1s infinite alternate;
-	transform-origin: center;
-    padding: 0 4px;    
-}
-
-/* Heart beat animation */
-@keyframes beat{
-	to { transform: scale(1.2); }
-}
-
 
 /* medium */
 @media screen and (max-width: 768px) {
@@ -206,7 +122,7 @@ i.heart {
         font-size: 3.5rem !important;
     }
 
-    nav #navbarLogo {
+    nav .navbarLogo {
         height: 48px;
     }
 
@@ -219,50 +135,50 @@ i.heart {
         font-size: 4rem;
     }
 
-    section#aboutMe > div {
+    section.aboutMe > div {
         flex-direction: column-reverse;
         padding: 40px .5rem;
     }
 
-    section#aboutMe div img#profile {
+    section.aboutMe div img.profile {
         margin-bottom: 64px;
         height: 35vh;
     }
 
-    section#aboutMe div #aboutMeText {
+    section.aboutMe div .aboutMeText {
         padding: 0 16px;
         margin-right: 0;
         text-align: center;
         font-size: 2rem !important;
     }
 
-    section#aboutMe div #aboutMeText p,
-    section#acompanhamentoNutricional p {
+    section.aboutMe div .aboutMeText p,
+    section.acompanhamentoNutricional p {
         font-size: 1.1rem !important;
         text-align: center;
     }
 
-    section#acompanhamentoNutricional h3 {
+    section.acompanhamentoNutricional h3 {
         margin-top: 3.5rem;
         text-align: center;
     }
 
-    section#acompanhamentoNutricional img {
+    section.acompanhamentoNutricional img {
         object-fit: cover;
         width: 150px;
         height: 150px;
     }
 
-    section#acompanhamentoNutricional div.box {
+    section.acompanhamentoNutricional div.box {
         display: block;
         height: 40px;
     }
 
-    section#googlEevaluation {
+    section.googlEevaluation {
         padding-top: 0 !important;
     }
 
-    footer #footerLogo {
+    footer .footerLogo {
         justify-content: center !important;
     }
 }
