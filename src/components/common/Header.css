@@ -1,17 +1,42 @@
-header.header h1, 
-header.header h2 {
+header h1, 
+header h2 {
     font-family: var(--main-font);
     color: var(--pallete-portfolio-first);
 }
 
-header.header h1 .title,
-header.header h2 .title {
-    line-height: 96px;
+header.home .page-title .title {
+    display: none !important;
+}
+
+header.home .logo-home {
+    width: 500px;
+}
+
+header {
+    margin: 3rem 0;
+}
+
+header h1 .title,
+header h2 .title {
     font-weight: bold;
     font-size: var(--title-font-size);
 }
 
-header.header h1 .subtitle,
-header.header h2 .subtitle {
+header h1 .subtitle,
+header h2 .subtitle {
     font-size: var(--subtitle-font-size);
+}
+
+@media only screen and (max-width: 480px) {
+    header.home {
+        height: calc(100vh - 102px);
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    header.home .logo-home {
+        max-width: 100vw;
+    }
+
 }

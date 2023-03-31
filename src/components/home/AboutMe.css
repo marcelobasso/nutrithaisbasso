@@ -1,10 +1,17 @@
 section.aboutMe {
     background-color: var(--pallete-portfolio-second);
+    padding: 48px .5rem;
+    margin: 3rem 0;
 }
 
-section.aboutMe > div {
-    width: 100vw;
-    padding: 8px 1rem;
+section.aboutMe button.callToAction {
+    max-width: 400px;
+}
+
+section.aboutMe div.image-container {
+    display: block;
+    width: 90%;
+    margin: auto;
 }
 
 section.aboutMe div img {
@@ -12,7 +19,6 @@ section.aboutMe div img {
     -moz-box-shadow: 24px 24px  var(--pallete-violet-dark);
     -webkit-box-shadow: 24px 24px  var(--pallete-violet-dark);
     -o-box-shadow: 24px 24px  var(--pallete-violet-dark);
-    width: 100%;
 }
 
 section.aboutMe div .aboutMeText {
@@ -31,11 +37,16 @@ section.aboutMe div .aboutMeText {
 }
 
 @media only screen and (max-width: 480px) {
-    .wave-top {
-        margin-bottom: 0
+    section.aboutMe {
+        padding: 16px 12px;
+        margin: 0;
     }
-    
-    .wave-bottom {
-        margin-top: 0
-    }   
+
+    section.aboutMe div .aboutMeText {
+        padding: 16px;
+    }
+
+    section.aboutMe div.row {
+        flex-direction: column-reverse;
+    }
 }

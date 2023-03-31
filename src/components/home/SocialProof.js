@@ -12,11 +12,7 @@ export default function SocialProof() {
                 edges {
                     node {
                         childImageSharp {
-                            gatsbyImageData(
-                                layout: FULL_WIDTH
-                                placeholder: BLURRED
-                                formats: [AUTO, WEBP]
-                            )
+                            gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
                         }
                     }
                 }
@@ -25,10 +21,7 @@ export default function SocialProof() {
     `);
 
     const images = SocialProofPhotos.images.edges.map((image) => (
-        <GatsbyImage
-            style={{ width: "64px", margin: "0 auto" }}
-            image={getImage(image.node.childImageSharp.gatsbyImageData)}
-        />
+        <GatsbyImage style={{ width: "64px", margin: "0 auto" }} image={getImage(image.node.childImageSharp.gatsbyImageData)} />
     ));
 
     const opinions = [
@@ -41,8 +34,8 @@ export default function SocialProof() {
                         <span className="green-underline">
                             <b>trocas inteligentes</b>
                         </span>{" "}
-                        de alimentos que muitas vezes escolhia por costume [...] Com um plano
-                        alimentar adaptado para as minhas necessidades, consegui entender que{" "}
+                        de alimentos que muitas vezes escolhia por costume [...] Com um plano alimentar adaptado para as minhas necessidades, consegui
+                        entender que{" "}
                         <span className="green-underline">
                             <b>comer bem não é difícil</b>
                         </span>
@@ -68,7 +61,23 @@ export default function SocialProof() {
         [
             {
                 name: "Lisiane Delai",
-                text: "Meu acompanhamento com a Thaís foi excelente. Procurei a nutri com o objetivo de melhorar minha alimentação e a da minha família, sem buscar a perda de peso. Consegui alcançar meu objetivo ainda nos primeiros meses de acompanhamento. Comer de forma saudável e nutritiva me deixou mais disposta, mais feliz e confiante. Meus filhos, especialmente a mais nova, tinham grande dificuldade de aceitar novos alimentos. Com as orientações da Thaís, consegui melhorar significativamente essa situação. O que mais me deixa satisfeita é saber que nada é restringido. Eu escolho o que quero comer. Isso é o máximo! A perda de peso aconteceu sem que eu percebesse. Essa liberdade é importante e necessária para que o processo se torne um hábito, como hoje é para mim. Super satisfeita com o trabalho da Thaís! Uma excelente profissional!",
+                text: (
+                    <>
+                        Meu acompanhamento com a Thaís foi excelente. Procurei a nutri com o objetivo de melhorar minha alimentação e a da minha
+                        família, sem buscar a perda de peso.{" "}
+                        <span className="green-underline">
+                            <b>Consegui alcançar meu objetivo ainda nos primeiros meses de acompanhamento</b>
+                        </span>
+                        . Comer de forma saudável e nutritiva me deixou mais disposta, mais feliz e confiante. Meus filhos, especialmente a mais nova,
+                        tinham grande dificuldade de aceitar novos alimentos. Com as orientações da Thaís, consegui melhorar significativamente essa
+                        situação. O que mais me deixa satisfeita é saber que{" "}
+                        <span className="green-underline">
+                            <b>nada é restringido. Eu escolho o que quero comer</b>
+                        </span>
+                        . Isso é o máximo! A perda de peso aconteceu sem que eu percebesse. Essa liberdade é importante e necessária para que o
+                        processo se torne um hábito, como hoje é para mim. Super satisfeita com o trabalho da Thaís! Uma excelente profissional!
+                    </>
+                ),
                 link: "https://g.co/kgs/9zVbu4",
                 image: "",
             },
@@ -84,23 +93,22 @@ export default function SocialProof() {
     return (
         <section className="social-proof my-5">
             <Container>
-                <SectionTitle className="text-center">
-                    Veja o que meus pacientes estão dizendo
-                </SectionTitle>
+                <SectionTitle className="text-center">Veja o que meus pacientes estão dizendo</SectionTitle>
                 <Row className="p-3">
                     {opinions.map((group) => (
                         <div className="col-lg-6 col-md-12 d-flex flex-grow-1">
                             <div className="d-flex align-items-center flex-column">
                                 {group.map((opinion, index) => (
-                                    <a href={opinion.link} key={index} target="_blank" alt="Visualizar avalização no Google">
-                                        <div className="opinion my-3 text-center">
-                                            {opinion.image || (
-                                                <i class="fas fa-user-circle fa-4x"></i>
-                                            )}
-                                            <p className="mb-3 mt-2">{opinion.name}</p>
-                                            <p className="m-0 opinion-content">"{opinion.text}"</p>
-                                        </div>
-                                    </a>
+                                    <div className="opinion my-3 text-center">
+                                        {opinion.image || <i class="fas fa-user-circle fa-4x"></i>}
+                                        <p className="mb-3 mt-2">{opinion.name}</p>
+                                        <p className="m-0 opinion-content">"{opinion.text}"</p>
+                                        <p className="m-0 mt-3 text-end">
+                                            <a href={opinion.link} key={index} target="_blank" alt="Visualizar avalização no Google" className="link-avaliacao text">
+                                                Visualizar avaliação completa
+                                            </a>
+                                        </p>
+                                    </div>
                                 ))}
                             </div>
                         </div>

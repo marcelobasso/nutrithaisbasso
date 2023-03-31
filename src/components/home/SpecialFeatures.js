@@ -11,7 +11,7 @@ export default function SpecialFeatures() {
         },
         {
             icon: "fas fa-cookie-bite",
-            title: "Sem dietas exageradas",
+            title: "Sem dietas desnecessárias",
             description: "Você merece aprender a comer de forma saudável sem depender de dietas malucas e com restrições desnecessárias!"
         },
         {

@@ -1,9 +1,9 @@
 import React from "react";
 
 const PageTitle = (props) => (
-    <h1 className={`text-center  ${props.className || ""}`}>
-        <span className="d-block title mb-3">{props.title}</span>
-        {props.subtitle && <span className="subtitle d-block">{props.subtitle}</span>}
+    <h1 className={`text-center page-title ${props.className || ""}`}>
+        <span className="d-block title">{props.title}</span>
+        {props.subtitle && <span className="subtitle d-block mt-3">{props.subtitle}</span>}
     </h1>
 );
 
@@ -33,7 +33,7 @@ const CallToAction = (props) => {
         >
             <button
                 type="button"
-                className={`btn btn-custom fs-6 text-center ${props.buttonClassName || ""}`}
+                className={`callToAction btn btn-custom fs-6 text-center ${props.buttonClassName || ""}`}
             >
                 {props.text || "Marque sua consulta"}
             </button>

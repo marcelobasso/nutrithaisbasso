@@ -4,3 +4,14 @@
     left: 0;
     width: 16vw;
 }
+
+@media only screen and (max-width: 480px) {
+    .flowery_image {
+        position: absolute !important;
+        top: 100px;
+        left: 0;
+        width: 100vw;
+        z-index: -10;
+        opacity: .25;
+    }
+}

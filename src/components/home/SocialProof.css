@@ -9,10 +9,14 @@ section.social-proof div.opinion .opinion-content {
     text-align: left;
 }
 
-section.social-proof div.opinion:hover {
-    transform: scale(1.03);
+section.social-proof a {
+    color: var(--mdb-link-color);
 }
 
-section.social-proof a {
-    color: var(--mdb-body-color);
+section.social-proof a.link-avaliacao {
+    font-size: .8rem;
+}
+
+section.social-proof a:hover {
+    text-decoration: underline;
 }
