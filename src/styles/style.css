@@ -119,7 +119,7 @@ i.fa-15x {
 /* medium */
 @media screen and (max-width: 768px) {
     h2, h3 {
-        font-size: 3.5rem !important;
+        font-size: 3.5rem;
     }
 
     nav .navbarLogo {

@@ -7,3 +7,29 @@ section.portfolio div.white {
 section.portfolio .container h3 {
     color: white;
 }
+
+section.portfolio {
+    margin: 3rem;
+}
+
+section.portfolio div.portfolio-container {
+    padding: 3rem 1rem;
+}
+
+section.portfolio h3 {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+    section.portfolio {
+        margin: 16px;
+    } 
+    
+    section.portfolio h3 {
+        font-size: 2rem !important;
+    }   
+
+    section.portfolio div.portfolio-container {
+        padding: 1rem;
+    }
+}

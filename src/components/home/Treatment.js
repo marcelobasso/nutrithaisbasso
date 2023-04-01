@@ -69,7 +69,7 @@ export default function Treatment() {
             {sections.map((section, index) => (
                 <Container className="p-5" key={index}>
                     <Row className={index % 2 && "flex-row-reverse"}>
-                        <div className="acompanhamentoImagens col-lg-6 col-md-12 p-4">
+                        <div className="acompanhamento-imagens col-lg-6 col-md-12 p-4">
                             <Row>
                                 <div className="col-6">
                                     {section.images[0]}
@@ -82,7 +82,7 @@ export default function Treatment() {
                                 </div>
                             </Row>
                         </div>
-                        <div className="acompanhamentoText col-lg-6 col-md-12 d-flex justify-content-center flex-column">
+                        <div className="acompanhamento-text col-lg-6 col-md-12 d-flex justify-content-center flex-column">
                             <Section title={section.title} content={section.content} />
                         </div>
                     </Row>

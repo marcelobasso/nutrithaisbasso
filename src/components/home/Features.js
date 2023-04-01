@@ -39,14 +39,14 @@ export default function Features(data) {
     return (
         <section className="features my-5">
             <Container>
-                <Section className="text-center" title={<>Conheça algumas das minhas <span className="green-underline">especializações</span></>} content={<>Algumas das minhas especializações mais atuais.<br /> Para conhecer minha formação melhor <Link to="/sobre-mim">acesse a página "sobre mim"</Link></>} />
+                <Section className="text-center px-3" title={<>Conheça algumas das minhas <span className="green-underline">especializações</span></>} content={<>APara conhecer minha formação melhor <Link to="/sobre-mim">acesse a página "sobre mim"</Link></>} />
                 <div className="mb-5" />
                 {features.map((feature, index) => (
                     <Row key={index} className={`py-5 ${index % 2 && "flex-row-reverse"}`}>
                         <div className="col-lg-6 col-md-12 d-flex flex-column justify-content-center px-5">
                             <h4 className="mb-4"><b>{feature.title}</b></h4>
                             <p>{feature.text}</p>
-                            <CallToAction text={feature.action} />
+                            <CallToAction text={feature.action} className="mb-4" />
                         </div>
                         <div className="col-lg-6 col-md-12 px-5 d-flex justify-content-center">
                             <div className="w-75">

@@ -18,3 +18,19 @@ section.treatment div.box {
     display: block;
     height: 80px;
 }
+
+section.treatment div.acompanhamento-text {
+    padding: 0 24px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    section.treatment img {
+        width: 160px;
+        height: 160px;
+    }
+
+    section.treatment .gatsby-image-wrapper {
+        height: 180px;
+    }
+}

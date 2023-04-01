@@ -50,7 +50,7 @@ export default function contato({ data }) {
             <Header title="Entre em contato" subtitle="Informações de contato e endereço do consultório." />
 
             <section className="contato">
-                <Container className="py-5">
+                <Container>
                     <Row>
                         {contactBoxes.map((box, index) => (
                             <ContactBox key={index} box={box} />
@@ -68,7 +68,7 @@ export default function contato({ data }) {
                     <SectionTitle className="text-center">Endereço do consultório</SectionTitle>
                     <Row>
                         <div className="col-lg-4 col-md-12 p-3">
-                            <h3>Localizaçao</h3>
+                            <h4>Localizaçao</h4>
                             <p>
                                 Rua Buarque de Macedo, 4146 - Sala 204
                                 <br />
@@ -76,7 +76,7 @@ export default function contato({ data }) {
                                 <br />
                                 Carlos Barbosa/RS
                             </p>
-                            <h3 className="mt-2">Fone</h3>
+                            <h4 className="mt-2">Fone</h4>
                             <p>(54) 99622-4005</p>
                         </div>
                         <div className="col-lg-8 col-md-12 p-3">

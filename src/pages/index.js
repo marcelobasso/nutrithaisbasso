@@ -16,7 +16,7 @@ import Portfolio from "../components/home/Portfolio";
 export default function Home({ data }) {
     return (
         <Layout>
-            <Header title="Thaís Basso" subtitle="Nutricionista funcional e comportamental" className="home">
+            <Header title="Thaís Basso" subtitle={<>Nutricionista funcional e comportamental<br />CRN-2: 16231D</>} className="home">
                 <div className="d-flex justify-content-center">
                     <img className="logo-home" src="/icons/logo-with-name.png" />
                 </div>
