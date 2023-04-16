@@ -11,6 +11,11 @@ svg {
     width: 100% !important;
 }
 
+svg.online-resume {
+    padding: 40px;
+}
+
+
 section.personal-links i {
     margin-right: 8px;
     width: 20px;

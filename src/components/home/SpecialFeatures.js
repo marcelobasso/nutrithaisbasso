@@ -7,7 +7,7 @@ export default function SpecialFeatures() {
         {
             icon: "fas fa-diagnoses",
             title: "No seu tempo e do seu jeito",
-            description: "Mudando seus hábitos e entendendo porque você age de determinadas maneiras, criando estratégias reais e eficazes para melhorar a sua saúde e qualidade de vida"
+            description: "o plano de tratamento é montado de acordo com suas necessidades e objetivos, priorizando a mudança de hábitos e um plano que você possa seguir a vida inteira."
         },
         {
             icon: "fas fa-cookie-bite",

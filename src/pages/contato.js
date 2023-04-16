@@ -70,9 +70,9 @@ export default function contato({ data }) {
                         <div className="col-lg-4 col-md-12 p-3">
                             <h4>Localizaçao</h4>
                             <p>
-                                Rua Buarque de Macedo, 4146 - Sala 204
+                                Rua Humberto Accorsi, n° 230 - Sala 02
                                 <br />
-                                Bairro Centro - 95185-000
+                                Edifício Rádio Estação, bairro Aurora - 95185-000
                                 <br />
                                 Carlos Barbosa/RS
                             </p>
@@ -81,12 +81,12 @@ export default function contato({ data }) {
                         </div>
                         <div className="col-lg-8 col-md-12 p-3">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13918.597853495297!2d-51.500965!3d-29.292619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c19e90a191857%3A0xf277e926a40a5fd3!2sR.%20Buarque%20de%20Macedo%2C%204146%20-%20Centro%2C%20Carlos%20Barbosa%20-%20RS%2C%2095185-000%2C%20Brazil!5e0!3m2!1sen!2sus!4v1674760780177!5m2!1sen!2sus"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.602673893178!2d-51.49857558490232!3d-29.293992282161344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c19ec86ec0001%3A0x75bb7b18f1a1b35e!2sEdif%C3%ADcio%20R%C3%A1dio%20Esta%C3%A7%C3%A3o%20-%20R.%20Humberto%20Accorsi%2C%20230%20-%20Sala%2002%20-%20Aurora%2C%20Carlos%20Barbosa%20-%20RS%2C%2095185-000!5e0!3m2!1spt-BR!2sbr!4v1681608930648!5m2!1spt-BR!2sbr"
                                 height="500"
                                 style={{ border: 0 }}
-                                allowFullScreen=""
+                                allowfullscreen=""
                                 loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"
+                                referrerpolicy="no-referrer-when-downgrade"
                                 title="Endereço do consultorio - Google Maps"
                             ></iframe>
                         </div>

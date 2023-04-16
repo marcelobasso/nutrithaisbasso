@@ -16,8 +16,8 @@ export default function Footer() {
                                 <i className="fas me-3 mb-3 fa-map-marked-alt"></i> Onde me encontrar?
                             </b>
                         </h5>
-                        <p className="mb-2">Rua Buarque de Macedo, 4146 - Sala 204</p>
-                        <p className="mb-2">Bairro Centro - 95185-000</p>
+                        <p className="mb-2">Rua Humberto Accorsi, n° 230 - Sala 02</p>
+                        <p className="mb-2">Edifício Rádio Estação, bairro Aurora - 95185-000</p>
                         <p className="mb-2">Carlos Barbosa/RS</p>
                         <br />
                         <p className="mb-0">

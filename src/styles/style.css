@@ -37,13 +37,9 @@
     --text-normal-size: 1rem;
 }
 
-button.btn-custom {
+button.btn {
     transition: all .5s;
-    color: var(--mdb-body-color);
-    background-color: var(--pallete-violet-light);
-}
-
-.white button.btn-custom {
+    background-color: var(--pallete-portfolio-first);
     color: white;
 }
 
@@ -61,16 +57,19 @@ button.btn-pink {
 
 button.btn:hover {
     color: white;
-    filter: brightness(105%);
-    background-color: var(--pallete-violet-light);
+    filter: brightness(130%);
+    background-color: var(--pallete-portfolio-first);
+    background-color: #472d65;
     box-shadow: var(--mdb-btn-hover-box-shadow);
 }
 
-.white button.btn-custom:hover {
-    color: var(--mdb-body-color);
+button.btn:active {
+    color: white !important;
+    background-color: var(--pallete-portfolio-second) !important;
+    background-color: #472d65 !important;
 }
 
-span.green-underline {
+.green-underline {
     text-decoration: underline;
     text-decoration-color: var(--pallete-green);
 }

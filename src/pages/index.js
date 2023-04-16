@@ -12,6 +12,7 @@ import Woman from "../images/undraw/undraw_woman_white.svg";
 import ActionBanner from "../components/common/ActionBanner";
 import Flowery from "../components/home/Flowery";
 import Portfolio from "../components/home/Portfolio";
+import IlustratedMenus from "../components/home/IlustratedMenus";
 
 export default function Home({ data }) {
     return (
@@ -25,6 +26,7 @@ export default function Home({ data }) {
             <AboutMe />
             <Treatment />
             <Portfolio />
+            <IlustratedMenus />
             <Features />
             <SpecialFeatures />
             <SocialProof />

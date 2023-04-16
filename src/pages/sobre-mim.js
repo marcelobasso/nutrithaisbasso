@@ -6,8 +6,8 @@ import Layout from "../components/common/Layout";
 import "../styles/sobre-mim.css";
 import Links from "../components/sobre-mim/Links";
 import CVList from "../components/sobre-mim/CVList";
-import OnlineResume from "../images/undraw/undraw_online_resume.svg";
 import ButtonStyle from "../images/undraw/undraw_button_style_white.svg";
+import PersonalSite from "../images/undraw/undraw_personal_site.svg";
 import ActionBanner from "../components/common/ActionBanner";
 
 export const Head = () => <Seo title="Sobre mim | Thaís Basso Nutricionista" />;
@@ -24,8 +24,8 @@ export default function sobreMim() {
             {
                 name: "email",
                 icon: "fas fa-envelope",
-                content: "email@provedor.com.br",
-                href: "mailto:email@provedor.com.br",
+                content: "nutricionistathaisb@gmail.com",
+                href: "mailto:nutricionistathaisb@gmail.com",
             },
             {
                 name: "celular",
@@ -118,7 +118,7 @@ export default function sobreMim() {
                 <Container className="my-4">
                     <Row>
                         <div class="col-lg-6 col-md-12">
-                            <OnlineResume className="online-resume" />
+                            <PersonalSite className="online-resume" />
                         </div>
                         <div class="col-lg-6 col-md-12 pl-3 d-flex align-items-center">
                             <p>

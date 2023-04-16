@@ -9,6 +9,6 @@ div.action-banner-image-container svg{
 section.action-banner div.action-banner-box {
     padding: 40px;
     border-radius: 24px;
-    background-color: var(--pallete-violet-dark);
-    color: white;
+    background-color: var(--pallete-portfolio-second);
+    color: var(--pallete-portfolio-first);
 }

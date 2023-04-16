@@ -37,16 +37,6 @@ section.contato div.box > div img.icon {
     height: calc(3.5 * 16px);
 }
 
-/* section.contato div.box > div button {
-    background-color: var(--pallete-portfolio-first);
-    color: white;
-    padding: 8px 0px;
-    border: none;
-    width: 80%;
-    border-radius: 32px;
-    font-size: 1rem;
-} */
-
 div.dietbox > div {
     height: 3.5rem;
     width: 4rem;

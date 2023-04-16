@@ -1,3 +1,13 @@
 section.features svg {
     height: fit-content;
 }
+
+@media only screen and (max-width: 480px) {
+    section.features div.row {
+        flex-direction: column-reverse !important;
+    }
+
+    section.features div.row svg {
+        margin-bottom: 1.5rem;
+    }
+}
