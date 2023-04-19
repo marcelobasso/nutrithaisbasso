@@ -25,13 +25,13 @@ export default function Home({ data }) {
             <Flowery />
             <AboutMe />
             <Treatment />
-            <Portfolio />
             <IlustratedMenus />
             <Features />
+            <Portfolio />
             <SpecialFeatures />
             <SocialProof />
             {/* <GoogleEvaluations />  */}
-            <ActionBanner text="Relaxe e venha comigo desvendar uma forma mais saudável de se alimentar" image={<Woman />} />
+            <ActionBanner text="Venha comigo desvendar uma forma mais saudável de ser" image={<Woman />} />
         </Layout>
     );
 }

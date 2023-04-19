@@ -16,7 +16,7 @@ header {
     margin: 3rem 0;
 }
 
-header.home div.container-lg {
+header.home div.container-custom {
     margin-bottom: 1.5rem;
     padding: auto 3rem;
 }

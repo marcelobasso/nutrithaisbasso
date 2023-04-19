@@ -1,5 +1,5 @@
 import React from "react";
-import { CallToAction, Container, SectionTitle } from "../common/interface/UI";
+import { CallToAction, Container, SectionText, SectionTitle } from "../common/interface/UI";
 import "./Portfolio.css";
 
 export default function Portfolio() {
@@ -8,15 +8,13 @@ export default function Portfolio() {
             <Container>
                 <div className="portfolio-container text-center white">
                     <SectionTitle>
-                        Você também pode conhecer mais sobre meu trabalho no meu meu{" "}
-                        <span className="green-underline">portfolio profissional</span>
+                    <i class="fas fa-book-open-reader" style={{marginRight: '24px'}}></i>Conheça meu <span className="green-underline">portfolio profissional</span>
                     </SectionTitle>
-                    <CallToAction
-                        href="/documents/portfolio-thais-basso-2023.pdf"
-                        text="Conheça meu portfólio"
-                        target="_blank"
-                    />
-                    </div>
+                    <SectionText>
+                        Leia mais sobre como funcionam os atendimentos e consulte os <b>valores dos planos e consultas ;)</b>
+                    </SectionText>
+                    <CallToAction href="/documents/portfolio-thais-basso-2023.pdf" text="Conheça meu portfólio" target="_blank" />
+                </div>
             </Container>
         </section>
     );

@@ -18,7 +18,7 @@ const SectionText = (props) => (
 const Row = (props) => <div className={`row ${props.className || ""}`}>{props.children}</div>;
 
 const Container = (props) => (
-    <div className={`container-lg px-2 py-2 ` + props.className || ""}>{props.children}</div>
+    <div className={`container-custom px-2 py-2 ` + props.className || ""}>{props.children}</div>
 );
 
 const CallToAction = (props) => {

@@ -1,8 +1,6 @@
-import { graphql } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import React from "react";
 import Header from "../components/common/Header";
-import { Container, Row, SectionTitle, CallToAction } from "../components/common/interface/UI";
+import { Container, Row, SectionTitle } from "../components/common/interface/UI";
 import Layout from "../components/common/Layout";
 import Seo from "../components/common/Seo";
 import ContactBox from "../components/contato/ContactBox";
@@ -11,15 +9,14 @@ import "../styles/contato.css";
 export const Head = () => <Seo title="Contato | Thaís Basso Nutricionista" />;
 
 export default function contato({ data }) {
-    const dietboxLogo = getImage(data.logo.childImageSharp.gatsbyImageData);
     const contactBoxes = [
         {
-            icon: <GatsbyImage image={dietboxLogo} className="icon" alt="Dietbox icon" />,
-            name: "Dietbox",
-            content: "Thaís Basso Nutricionista",
+            icon: <i className="fab fa-instagram icon"></i>,
+            name: "Instagram",
+            content: "@nutrithaisbasso",
             action: {
                 text: "Visite o perfil",
-                href: "https://dietbox.me/pt-BR/thais-basso",
+                href: "https://www.instagram.com/nutrithaisbasso/",
                 alt: "Perfil no Dietbox",
             },
         },
@@ -36,10 +33,10 @@ export default function contato({ data }) {
         {
             icon: <i className="far fa-envelope icon"></i>,
             name: "Email",
-            content: "email@provedor.com.br",
+            content: "nutricionistathaisb@gmail.com",
             action: {
                 text: "Envie um email",
-                href: "mailto:email@provedor.com.br",
+                href: "nutricionistathaisb@gmail.com",
                 alt: "Endereço de email",
             },
         },
@@ -96,14 +93,3 @@ export default function contato({ data }) {
         </Layout>
     );
 }
-
-export const query = graphql`
-    query Logo {
-        logo: file(relativePath: { regex: "/dietbox-black/" }) {
-            id
-            childImageSharp {
-                gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: WEBP)
-            }
-        }
-    }
-`;
