@@ -17,7 +17,7 @@ export default function CVList(props) {
                                 <h4>
                                     <b>{item.title}</b>
                                 </h4>
-                                <a href={item.institutionSite || ""} target="_blank" rel="noopener">
+                                <a href={item.institutionSite || ""} target="_blank" rel="noreferrer">
                                     <span>{item.institution}</span>
                                 </a>
                                 <p>{item.description}</p>

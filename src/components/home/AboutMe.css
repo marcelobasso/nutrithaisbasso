@@ -28,14 +28,6 @@ section.aboutMe div .aboutMeText {
     margin-bottom: auto;
 }
 
-.wave-top {
-    margin-bottom: -64px;
-}
-
-.wave-bottom {
-    margin-top: -64px
-}
-
 @media only screen and (max-width: 480px) {
     section.aboutMe {
         padding: 16px 12px;

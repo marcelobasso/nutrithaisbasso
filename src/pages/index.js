@@ -3,7 +3,6 @@ import Layout from "../components/common/Layout";
 import Seo from "../components/common/Seo";
 import Header from "../components/common/Header";
 import AboutMe from "../components/home/AboutMe";
-import GoogleEvaluations from "../components/home/GoogleEvaluations";
 import Treatment from "../components/home/Treatment";
 import Features from "../components/home/Features";
 import SpecialFeatures from "../components/home/SpecialFeatures";
@@ -19,7 +18,7 @@ export default function Home({ data }) {
         <Layout>
             <Header title="Thaís Basso" subtitle={<>Nutricionista funcional e comportamental<br />CRN-2: 16231D</>} className="home">
                 <div className="d-flex justify-content-center">
-                    <img className="logo-home" src="/icons/logo-with-name.png" />
+                    <img className="logo-home" src="/icons/logo-with-name.png" alt="Logo Thaís Basso" />
                 </div>
             </Header>
             <Flowery />
@@ -30,7 +29,6 @@ export default function Home({ data }) {
             <Portfolio />
             <SpecialFeatures />
             <SocialProof />
-            {/* <GoogleEvaluations />  */}
             <ActionBanner text="Venha comigo desvendar uma forma mais saudável de ser" image={<Woman />} />
         </Layout>
     );

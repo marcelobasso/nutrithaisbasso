@@ -30,7 +30,7 @@ const CallToAction = (props) => {
             href={props.href || whatsappLink}
             alt={props.alt || false}
             target={props.target || false}
-            rel="noopener"
+            rel="noreferrer"
         >
             <button
                 type="button"

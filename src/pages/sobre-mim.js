@@ -1,7 +1,7 @@
 import React from "react";
 import Seo from "../components/common/Seo";
 import Header from "../components/common/Header";
-import { CallToAction, Container, Divider, PageTitle, Row, SectionTitle } from "../components/common/interface/UI";
+import { Container, Row } from "../components/common/interface/UI";
 import Layout from "../components/common/Layout";
 import "../styles/sobre-mim.css";
 import Links from "../components/sobre-mim/Links";
@@ -59,51 +59,40 @@ export default function sobreMim() {
     const formacao = {
         "Formação profissional": [
             {
+                title: "Especialização em Emagrecimento e Saúde",
+                institution: "NBE Academy 2021",
+                institutionSite: "https://escolanbe.anniebello.com.br/",
+                period: "2021 - 2021",
+                description: "Carga horária total de 180 horas.",
+            },
+            {
+                title: "Pós graduação em Nutrição Funcional e Comportamento Alimentar ",
+                institution: "UCS - Universidade de Caxias do Sul",
+                institutionSite: "https://www.ucs.br/site",
+                period: "2019 - 2021",
+                description: "Carga horária total de 400 horas.",
+            },
+            {
                 title: "Graduação em Nutrição",
                 institution: "UCS - Universidade de Caxias do Sul",
                 institutionSite: "https://www.ucs.br/site",
                 period: "2012 - 2018",
                 description:
-                    "Graduanda em Nutrição na UCS durante 6 anos, tive a oportunidade de adentrar na área, conhecendo novas pessoas e amigos. Realizei diversos projetos dentro do curso, inclusive estágios em cozinhas industriais e no Hospital da universidade de Caxias do Sul.",
+                    "Carga Horária Total: 3270h + 230h de Atividades Complementares = 3500h + ENADE",
             },
             {
-                title: "Graduação em Nutrição",
-                institution: "UCS - Universidade de Caxias do Sul",
-                institutionSite: "https://www.ucs.br/site",
-                period: "2012 - 2018",
-                description:
-                    "Graduanda em Nutrição na UCS durante 6 anos, tive a oportunidade de adentrar na área, conhecendo novas pessoas e amigos. Realizei diversos projetos dentro do curso, inclusive estágios em cozinhas industriais e no Hospital da universidade de Caxias do Sul.",
+                title: "Curso de inglês (Business)",
+                institution: "Rennert New York Language School – NY",
+                institutionSite: "https://rennert.com/index.html",
+                period: "2017 - 2017",
+                description: "Carga horária total de 60 horas.",
             },
             {
-                title: "Graduação em Nutrição",
-                institution: "UCS - Universidade de Caxias do Sul",
-                institutionSite: "https://www.ucs.br/site",
-                period: "2012 - 2018",
-                description:
-                    "Graduanda em Nutrição na UCS durante 6 anos, tive a oportunidade de adentrar na área, conhecendo novas pessoas e amigos. Realizei diversos projetos dentro do curso, inclusive estágios em cozinhas industriais e no Hospital da universidade de Caxias do Sul.",
-            },
-        ],
-        "Formação complementar": [
-            {
-                title: "Formação em Desenvolvimento pessoal",
-                institution: "ACI - Carlos Barbosa",
-                institutionSite: "https://www.acicb.com.br/",
-                period: "2019 - 2019",
-                description: "Curso de formação em coaching e desenvolvimento pessoal onde tive a oportunidade de desenvolver minhas visões acerca da formação de uma rotina mais saudável.",
-            },
-            {
-                title: "Formação em Desenvolvimento pessoal",
-                institution: "ACI - Carlos Barbosa",
-                institutionSite: "https://www.acicb.com.br/",
-                period: "2019 - 2019",
-                description: "Curso de formação em coaching e desenvolvimento pessoal onde tive a oportunidade de desenvolver minhas visões acerca da formação de uma rotina mais saudável.",
-            },
-            {
-                title: "Formação em Desenvolvimento pessoal",
-                institution: "ACI - Carlos Barbosa",
-                institutionSite: "https://www.acicb.com.br/",
-                period: "2019 - 2019",
-                description: "Curso de formação em coaching e desenvolvimento pessoal onde tive a oportunidade de desenvolver minhas visões acerca da formação de uma rotina mais saudável.",
+                title: "Curso de inglês Avançado",
+                institution: "Embassy English San Francisco - CA",
+                institutionSite: "#",
+                period: "2013 - 2013",
+                description: "Carga horária total de 80 horas.",
             },
         ],
     };
@@ -112,31 +101,104 @@ export default function sobreMim() {
         <Layout>
             <Header
                 title="Conheça mais sobre mim"
-                subtitle="Minha formação profissional em detalhes, para você saber quem é a Nutri Thaís Basso."
+                subtitle="Minha formação profissional e um pouco da minha história para você me conhecer melhor."
             />
             <section class="bio mx-3">
                 <Container className="my-4">
-                    <Row>
-                        <div class="col-lg-6 col-md-12">
+                    <div>
+                        <div className="svg-container">
                             <PersonalSite className="online-resume" />
                         </div>
-                        <div class="col-lg-6 col-md-12 pl-3 d-flex align-items-center">
+                        <div className="text-container">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et
-                                dictum sem. Vivamus ultrices rutrum arcu, non feugiat ex tempus sit
-                                amet. Aenean metus magna, porta id convallis a, sollicitudin sed
-                                mauris. Nunc non nisi in odio molestie vehicula. Donec eu
-                                scelerisque nunc, et tincidunt nulla. Phasellus vulputate dignissim
-                                lacinia. Suspendisse potenti. <br />
-                                <br />
-                                Integer posuere auctor tellus. Donec ullamcorper, lacus a mattis
-                                elementum, nunc lectus molestie ligula, non commodo sem ante sit
-                                amet odio. Proin bibendum, metus non fringilla maximus, metus ipsum
-                                egestas augue, vel bibendum dui sem et sem. Proin congue fermentum
-                                enim, ac porta sapien.
+                                Desde muito nova eu sabia que queria fazer algo
+                                relacionado à saúde, eu adorava estudar sobre
+                                ciências e biologia na escola. Brincava de
+                                várias coisas, entre elas, gostava de brincar
+                                que era dona do meu próprio negócio, desde
+                                escritório, restaurantes até mesmo escola. Eu
+                                tinha grandes sonhos e uma sede por aprender
+                                coisas novas.{" "}
+                            </p>
+                            <p>
+                                Sempre fui muito curiosa e gostei de estudar,
+                                pois sabia que esse era o caminho que iria me
+                                permitir "crescer na vida" e realizar meus
+                                sonhos. Comecei a me preocupar com minha saúde
+                                desde cedo, lia livros e revistas relacionadas
+                                ao tema, iniciei a academia com 15 anos, assim
+                                que consegui me pagar. Também parei de consumir
+                                carnes por um período da minha vida. Naquela
+                                época, saúde, para mim, era algo mais simples,
+                                estava ligada à saúde do corpo apenas. E tenho
+                                certeza que muitas pessoas ainda pensam assim.
+                            </p>
+                            <p>
+                                Porém, tudo isso mudou depois que eu passei por
+                                um período muito difícil da minha vida, no qual
+                                tive que lidar com muitas responsabilidades e
+                                uma rotina exaustiva que me levou a ter
+                                problemas com <u>ansiedade</u>. O auge da minha
+                                ansiedade ocorreu quando viajei para o exterior
+                                a trabalho, e não consegui dormir por dias. Tive
+                                ataques de pânico na viagem e não fazia ideia do
+                                que estava acontecendo. Foi um período muito
+                                complicado para mim, onde tive que buscar ajuda
+                                e reorganizar quem eu era. Senti muito medo e
+                                percebi que não importa onde estamos, ou o que
+                                temos,{" "}
+                                <b>
+                                    se não estivermos bem dentro de nós, nada
+                                    tem sentido, tudo perde a graça.
+                                </b>
+                            </p>
+                            <p>
+                                Comecei a entender que{" "}
+                                <b>
+                                    saúde é muito mais do que somente o corpo
+                                    físico, saúde mental é tão ou mais
+                                    importante.
+                                </b>
+                                Prometi pra mim mesma que iria cuidar da minha
+                                saúde mental, respeitando os meus limites e
+                                vontades. E assim, eu fiz.
+                            </p>
+
+                            <p>
+                                Mudei minha rotina, busquei fazer atividades
+                                como yoga, com pausas para respirar, pensar e
+                                avaliar meu dia. Priorizei a atividade física e
+                                um boa noite de sono (eu senti na pele o que é
+                                ficar sem dormir por algumas semanas!), comecei
+                                a fazer terapia, etc. Enfim,{" "}
+                                <b>mudei meu estilo de vida.</b> Desde então, eu
+                                tive a certeza que{" "}
+                                <b>
+                                    trabalhar com saúde é muito mais do que
+                                    somente física e estética, mas é acima de
+                                    tudo, se sentir bem no próprio corpo e na
+                                    própria mente.
+                                </b>
+                            </p>
+                            <p>
+                                Por isso, me apaixonei pela nutrição
+                                comportamental, que vai muito além do que se
+                                come, mas foca no COMO. Me apaixonei também pela
+                                medicina do estilo de vida, que engloba em seus
+                                6 pilares o que é realmente ter saúde: sono de
+                                qualidade, alimentação saudável, atividade
+                                física, manejo do stress, relacionamentos e
+                                controle de vícios. E é nessa nutrição que eu
+                                acredito, e é essa nutrição que eu vivo! Tenho
+                                um olhar sobre o ser humano em sua complexidade
+                                e não somente no problema que ele me traz.
+                                Avalio meus pacientes como um TODO, e acolho da
+                                forma como também precisei ser acolhida.
+                                Trabalhamos para uma melhor qualidade de vida e
+                                desenvolvimento da sua melhor versão.
                             </p>
                         </div>
-                    </Row>
+                    </div>
                 </Container>
             </section>
 
@@ -157,7 +219,7 @@ export default function sobreMim() {
             </section>
 
             <ActionBanner
-                text="Agora que você conhece um pouco mais sobre mim, que tal marcarmos uma avaliação?"
+                text="Vamos marcar sua primeira consulta?"
                 CallToAction="Marcar uma avaliação"
                 image={<ButtonStyle />}
             />

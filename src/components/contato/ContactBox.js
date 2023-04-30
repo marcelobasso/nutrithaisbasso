@@ -11,7 +11,7 @@ export default function ContactBox(props) {
                 <p className="mt-2">
                     <b>{box.content}</b>
                 </p>
-                <CallToAction text={box.action.text} href={box.action.href} alt={box.action.alt} target="_blank" rel="noopener" className="mx-auto text-center w-100" />
+                <CallToAction text={box.action.text} href={box.action.href} alt={box.action.alt} target="_blank" rel="noreferrer" className="mx-auto text-center w-100" />
             </div>
         </div>
     );

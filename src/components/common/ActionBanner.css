@@ -6,9 +6,20 @@ div.action-banner-image-container svg{
     height: 320px;
 }
 
+section.action-banner .action-banner-title {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
 section.action-banner div.action-banner-box {
     padding: 40px;
     border-radius: 24px;
     background-color: var(--pallete-portfolio-second);
     color: var(--pallete-portfolio-first);
+}
+
+@media screen and (max-width: 768px) {
+    section.action-banner .action-banner-title {
+        margin: 0;
+    }
 }

@@ -77,7 +77,7 @@ export default function Navbar() {
 
                 <div id="socialLinks" className="d-flex align-items-center d-none d-lg-block">
                     {SOCIAL_LINKS.map((page, index) => (
-                        <a href={page.href} alt={page.alt} target="_blank" rel="noopener" key={index}>
+                        <a href={page.href} alt={page.alt} target="_blank" rel="noreferrer" key={index}>
                             <i className={`fab ${page.icon} fa-1x px-2`} />
                         </a>
                     ))}

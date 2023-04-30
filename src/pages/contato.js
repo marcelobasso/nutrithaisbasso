@@ -69,9 +69,9 @@ export default function contato({ data }) {
                             <p>
                                 Rua Humberto Accorsi, n° 230 - Sala 02
                                 <br />
-                                Edifício Rádio Estação, bairro Aurora - 95185-000
+                                Edifício Rádio Estação, bairro Aurora
                                 <br />
-                                Carlos Barbosa/RS
+                                CEP 95185-000 - Carlos Barbosa/RS
                             </p>
                             <h4 className="mt-2">Fone</h4>
                             <p>(54) 99622-4005</p>

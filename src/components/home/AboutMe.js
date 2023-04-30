@@ -1,14 +1,13 @@
+import React from "react";
+import "./AboutMe.css";
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import React from "react";
-import Wave from "./Wave";
-import "./AboutMe.css";
 import { Container, Row, CallToAction } from "../common/interface/UI";
 import Section from "../common/Section";
 
 export default function AboutMe() {
     const data = useStaticQuery(graphql`
-        query ProfilePhoto {
+        query ProfileImage {
             logo: file(relativePath: { eq: "fotos-thais/foto-profile.webp" }) {
                 childImageSharp {
                     gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
