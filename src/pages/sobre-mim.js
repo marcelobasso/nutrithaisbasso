@@ -39,7 +39,7 @@ export default function sobreMim() {
                 name: "instagram",
                 icon: "fab fa-instagram",
                 content: "Instagram",
-                href: "https://www.instagram.com/nutrithaisbasso/",
+                href: "https://www.instagram.com/",
             },
             {
                 name: "facebook",
@@ -51,7 +51,7 @@ export default function sobreMim() {
                 name: "portfolio",
                 icon: "fas fa-book-reader",
                 content: "Portfólio profissional",
-                href: "/nutrithaisbasso/documents/portfolio-thais-basso-2023.pdf",
+                href: "/documents/portfolio-thais-basso-2023.pdf",
             },
         ],
     ];

@@ -13,7 +13,7 @@ export default function Portfolio() {
                     <SectionText>
                         Leia mais sobre como funcionam os atendimentos e consulte os <b>valores dos planos e consultas ;)</b>
                     </SectionText>
-                    <CallToAction href="/nutrithaisbasso/documents/portfolio-thais-basso-2023.pdf" text="Conheça meu portfólio" target="_blank" />
+                    <CallToAction href="/documents/portfolio-thais-basso-2023.pdf" text="Conheça meu portfólio" target="_blank" />
                 </div>
             </Container>
         </section>

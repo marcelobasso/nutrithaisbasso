@@ -16,7 +16,7 @@ export default function contato({ data }) {
             content: "@nutrithaisbasso",
             action: {
                 text: "Visite o perfil",
-                href: "https://www.instagram.com/nutrithaisbasso/",
+                href: "https://www.instagram.com/",
                 alt: "Perfil no Dietbox",
             },
         },
