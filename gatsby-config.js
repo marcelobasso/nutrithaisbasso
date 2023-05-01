@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-    pathPrefix: "/nutrithaisbasso",
+    pathPrefix: "",
     plugins: [
         `gatsby-plugin-image`,
         `gatsby-plugin-sharp`,
@@ -17,14 +17,14 @@ module.exports = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `images`,
-                path: `${__dirname}/src/images`,
+                path: `/src/images`,
             },
         },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `src`,
-                path: `${__dirname}/src/`,
+                path: `/src/`,
             },
         },
         "gatsby-plugin-react-svg",
