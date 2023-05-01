@@ -17,14 +17,14 @@ module.exports = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `images`,
-                path: `/src/images`,
+                path: `./src/images`,
             },
         },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `src`,
-                path: `/src/`,
+                path: `./src/`,
             },
         },
         "gatsby-plugin-react-svg",
