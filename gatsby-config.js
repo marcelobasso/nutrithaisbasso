@@ -8,7 +8,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-    pathPrefix: "",
     plugins: [
         `gatsby-plugin-image`,
         `gatsby-plugin-sharp`,

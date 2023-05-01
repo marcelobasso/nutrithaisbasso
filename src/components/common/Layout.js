@@ -1,5 +1,4 @@
 import React from 'react';
-// import 'mdb-ui-kit'; // lib
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import '../../fontawesome-free-6.2.1-web/css/all.min.css';

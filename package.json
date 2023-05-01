@@ -2,11 +2,11 @@
     "name": "thais basso nutricionista funcional e comportamental",
     "private": true,
     "description": "Um site profissional desenvolvido com gatsby, react, e material design bootstrap",
+    "homepage": ".",
     "version": "0.1.0",
     "license": "0BSD",
     "scripts": {
-        "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-        "sync": "git add . && git commit -m 'sync repo' && git push",
+        "deploy": "gatsby build && echo thaisbasso.com > ./public/CNAME && gh-pages -d public",
         "build": "gatsby build",
         "develop": "gatsby develop",
         "start": "gatsby develop",
