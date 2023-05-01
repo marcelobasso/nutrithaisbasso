@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Seo(props) {
     const data = useStaticQuery(graphql`
-        query Metadata {
+        query siteMetadata {
             site {
                 siteMetadata {
                     title
