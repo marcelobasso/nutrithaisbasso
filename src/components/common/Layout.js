@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../Navbar';
 // import 'mdb-ui-kit'; // lib
-import '../../fontawesome-free-6.2.1-web/css/all.min.css';
+import Navbar from '../Navbar';
 import Footer from '../Footer';
+import '../../fontawesome-free-6.2.1-web/css/all.min.css';
 import '../../styles/style.css';
 
 export default function Layout(props) {

@@ -23,6 +23,13 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
+                name: `fonts`,
+                path: `./src/fonts`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
                 name: `src`,
                 path: `./src/`,
             },
