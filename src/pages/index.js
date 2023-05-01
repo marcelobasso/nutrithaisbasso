@@ -18,7 +18,7 @@ export default function Home({ data }) {
         <Layout>
             <Header title="Thaís Basso" subtitle={<>Nutricionista funcional e comportamental<br />CRN-2: 16231D</>} className="home">
                 <div className="d-flex justify-content-center">
-                    <img className="logo-home" src="/icons/logo-with-name.png" alt="Logo Thaís Basso" />
+                    <img className="logo-home" src="/nutrithaisbasso/icons/logo-with-name.png" alt="Logo Thaís Basso" />
                 </div>
             </Header>
             <Flowery />

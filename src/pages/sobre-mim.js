@@ -51,7 +51,7 @@ export default function sobreMim() {
                 name: "portfolio",
                 icon: "fas fa-book-reader",
                 content: "Portfólio profissional",
-                href: "/documents/portfolio-thais-basso-2023.pdf",
+                href: "/nutrithaisbasso/documents/portfolio-thais-basso-2023.pdf",
             },
         ],
     ];

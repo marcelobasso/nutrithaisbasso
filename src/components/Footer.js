@@ -24,7 +24,7 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className="footerLogo col-lg-6 col-md-12 mb-4 mb-md-0 d-flex justify-content-end align-items-center">
-                        <img src="/icons/logo.png" className="logo" alt="Logo Thaís Basso nutricionista" />
+                        <img src="/nutrithaisbasso/icons/logo.png" className="logo" alt="Logo Thaís Basso nutricionista" />
                     </div>
                 </div>
             </div>
