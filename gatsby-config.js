@@ -68,7 +68,8 @@ module.exports = {
                 sitemap: 'https://thaisbasso.com/sitemap-0.xml',
                 policy: [{userAgent: '*', allow: '/'}]
             }
-        }
+        },
+        'gatsby-plugin-cname'
     ],
 
     siteMetadata: {
