@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.thaisbasso.com">
-    <img alt="Logo Thaís Basso" src="https://thaisbasso.com/logo-with-name.png" width="300" />
+    <img alt="Logo Thaís Basso" src="https://thaisbasso.com/logo-with-name.png" width="400" />
   </a>
 </p>
 <h1 align="center">
