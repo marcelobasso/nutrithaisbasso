@@ -13,7 +13,7 @@ import Flowery from "../components/home/Flowery";
 import Portfolio from "../components/home/Portfolio";
 import IlustratedMenus from "../components/home/IlustratedMenus";
 
-export default function Home({ data }) {
+export default function Home() {
     return (
         <Layout>
             <Header title="Thaís Basso" subtitle={<>Nutricionista funcional e comportamental<br />CRN-2: 16231D</>} className="home">

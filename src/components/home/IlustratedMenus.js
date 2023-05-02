@@ -40,8 +40,8 @@ export default function IlustratedMenus() {
                     <div className="col-lg-5 col-md-12 d-flex">
                         <div className="il-image-container">{images[1]}</div>
                         <div className="row-container-il-images">
-                            <div className="il-image-container">{images[2]}</div>
                             <div className="il-image-container">{images[0]}</div>
+                            <div className="il-image-container">{images[2]}</div>
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-12 d-flex flex-column justify-content-center">

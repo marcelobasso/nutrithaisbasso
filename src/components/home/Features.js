@@ -13,8 +13,8 @@ import Section from "../common/Section";
 export default function Features(data) {
     const features = [
         {
-            title: "Pós graduação em nutrição funcional e comportamento alimentar",
-            text: "Aliar essas duas áreas da nutrição permite avaliar o indivíduo como um todo, propor mudanças no estilo de vida e reeducar hábitos para criar resultados que perduram a vida inteira.",
+            title: "Pós-graduação em nutrição funcional e comportamento alimentar",
+            text: "Aliar essas duas áreas da nutrição permite avaliar o indivíduo na totalidade, propor mudanças no estilo de vida e reeducar hábitos para criar resultados que perduram a vida inteira.",
             image: <OfficeSnack />,
             action: "Ampliar minha visão sobre nutrição"
         },
@@ -32,19 +32,19 @@ export default function Features(data) {
         },
         {
             title: "Nutrição vegetariana",
-            text: "Com carinho e dedicação especial àqueles que se importam com os animais e a sustentabilidade. Aprenda a fazer uma transição nutricional equilibrada, na qual os macros e micronutrientes estão adequados na sua alimentação, sem correr o risco de ter deficiências nutricionais. Quero te apresentar uma dieta que vai além dos grãos e que abre portas para um mundo imenso de possibilidades.",
+            text: "Com carinho e dedicação especial àqueles que se importam com os animais e a sustentabilidade. Aprenda a fazer uma transição nutricional equilibrada, na qual os macros e micronutrientes estão adequados na sua alimentação, sem arriscar ter deficiências nutricionais. Quero te apresentar uma dieta que vai além dos grãos e que abre portas para um mundo imenso de possibilidades.",
             image: <FishBowl />,
             action: "Diversificar minha alimentação"
         },
         {
             title: "Saúde da mulher",
-            text: "Esta especialização é especial para o público feminino e vai desde o tratamento e prevenção de patologias (endometriose, etc) até a área estética. Aprenda uma gama de conhecimentos que vai te proporcionar uma vida mais leve e saudável, de acordo com as suas necessidades individuais.",
+            text: "Esta especialização é especial para o público feminino e vai desde o tratamento e prevenção de patologias (endometriose, etc.) até a área estética. Aprenda uma gama de conhecimentos que vai te proporcionar uma vida mais leve e saudável, conforme as suas necessidades individuais.",
             image: <SuperWoman />,
             action: "Melhorar minha saúde"
         },
         {
             title: "Fitoterapia integrativa",
-            text: <>Aprenda como usar o poder das <span className="green-underline"><b>ervas e chás</b></span> para o tratamento e a prevenção das mais diversas patologias e para o seu bem estar em geral.</>,
+            text: <>Aprenda como usar o poder das <span className="green-underline"><b>ervas e chás</b></span> para o tratamento e a prevenção das mais diversas patologias e para o seu bem-estar em geral.</>,
             image: <MintTea />,
             action: "Usar o poder da natureza"
         },

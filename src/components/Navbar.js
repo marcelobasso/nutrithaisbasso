@@ -7,7 +7,7 @@ export default function Navbar() {
 
     const PAGES = [
         {
-            name: "Home",
+            name: "Início",
             to: "/",
             ariaLabel: "Página inicial",
         },
@@ -43,7 +43,7 @@ export default function Navbar() {
         {
             icon: "fa-whatsapp",
             href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
-            alt: "Link do Whatsapp",
+            alt: "Link do WhatsApp",
         },
         {
             icon: "fa-youtube",

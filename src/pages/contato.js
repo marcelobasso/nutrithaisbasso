@@ -22,22 +22,22 @@ export default function contato({ data }) {
         },
         {
             icon: <i className="fab fa-whatsapp icon"></i>,
-            name: "Whatsapp",
+            name: "WhatsApp",
             content: "(54) 99622-4005",
             action: {
                 text: "Marque sua consulta!",
                 href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
-                alt: "Whatsapp link",
+                alt: "WhatsApp link",
             },
         },
         {
             icon: <i className="far fa-envelope icon"></i>,
-            name: "Email",
+            name: "E-mail",
             content: "nutricionistathaisb@gmail.com",
             action: {
-                text: "Envie um email",
+                text: "Envie um E-mail",
                 href: "nutricionistathaisb@gmail.com",
-                alt: "Endereço de email",
+                alt: "Endereço de E-mail",
             },
         },
     ];
@@ -65,7 +65,7 @@ export default function contato({ data }) {
                     <SectionTitle className="text-center">Endereço do consultório</SectionTitle>
                     <Row>
                         <div className="col-lg-4 col-md-12 p-3">
-                            <h4>Localizaçao</h4>
+                            <h4>Localização</h4>
                             <p>
                                 Rua Humberto Accorsi, n° 230 - Sala 02
                                 <br />

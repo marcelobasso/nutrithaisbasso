@@ -40,7 +40,7 @@ export default function Treatment() {
             content: (
                 <>
                     <p>
-                        É indicado para todas as pessoas que buscam mudar sua relação com a comida e aprender a se alimentar de forma saudável e sem restrições alimentares, para atingir seus objetivos específicos priorizando sempre sua
+                        É indicado para todas as pessoas que buscam mudar sua relação com a comida e aprender a se alimentar de forma saudável e sem restrições alimentares, para atingir seus objetivos específicos, priorizando sempre sua
                         saúde, com um plano de tratamento totalmente personalizado.{" "}
                     </p>
                     <p>
