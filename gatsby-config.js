@@ -34,12 +34,49 @@ module.exports = {
             },
         },
         "gatsby-plugin-react-svg",
+        {
+            resolve: `gatsby-plugin-sitemap`,
+            options: {
+                query: `
+                    {
+                        site {
+                            siteMetadata {
+                                siteUrl
+                            }
+                        }
+                        allSitePage {
+                            nodes {
+                                path
+                                pageContext
+                            }
+                        }
+                    }
+                `,
+                serialize: ({ path, pageContext }) => {
+                    return {
+                        url: path,
+                        lastmod: pageContext?.lastMod,
+                    };
+                },
+            },
+        },
+        `gatsby-plugin-git-lastmod`,
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+                host: 'https://thaisbasso.com',
+                sitemap: 'https://thaisbasso.com/sitemap-0.xml',
+                policy: [{userAgent: '*', allow: '/'}]
+            }
+        }
     ],
 
     siteMetadata: {
         title: "Thaís Basso | Nutricionista funcional e comportamental",
-        description: "Nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Apaixonada pela minha profissão e como ela pode mudar a vida das pessoas.",
+        description:
+            "Nutricionista pós-graduada em nutrição funcional e comportamento alimentar, uma das áreas mais atuais da Nutrição. Apaixonada pela minha profissão e como ela pode mudar a vida das pessoas.",
         canonical: "https://thaisbasso.com",
+        siteUrl: "https://thaisbasso.com",
         author: "marceloBasso",
     },
 };
