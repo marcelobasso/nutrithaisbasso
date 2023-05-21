@@ -38,7 +38,7 @@ export default function Features(data) {
         },
         {
             title: "Saúde da mulher",
-            text: "Esta especialização é especial para o público feminino e vai desde o tratamento e prevenção de patologias (endometriose, etc.) até a área estética. Aprenda uma gama de conhecimentos que vai te proporcionar uma vida mais leve e saudável, conforme as suas necessidades individuais.",
+            text: "Esta especialização é voltada para o público feminino e vai desde o tratamento e prevenção de patologias (endometriose, etc.) até a área estética e o acompanhamento durante a gestação. Aprenda uma gama de conhecimentos que vai te proporcionar uma vida mais leve e saudável, conforme as suas necessidades individuais.",
             image: <SuperWoman />,
             action: "Melhorar minha saúde"
         },
