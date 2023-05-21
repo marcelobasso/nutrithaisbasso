@@ -16,7 +16,7 @@ export default function contato({ data }) {
             content: "@nutrithaisbasso",
             action: {
                 text: "Visite o perfil",
-                href: "https://www.instagram.com/",
+                href: "https://www.instagram.com/nutrithaisbasso",
                 alt: "Perfil no Dietbox",
             },
         },
@@ -36,7 +36,7 @@ export default function contato({ data }) {
             content: "nutricionistathaisb@gmail.com",
             action: {
                 text: "Envie um E-mail",
-                href: "nutricionistathaisb@gmail.com",
+                href: "mailto:nutricionistathaisb@gmail.com",
                 alt: "Endereço de E-mail",
             },
         },
