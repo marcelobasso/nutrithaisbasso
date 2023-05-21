@@ -37,7 +37,7 @@ export default function Navbar() {
         },
         {
             icon: "fa-instagram",
-            href: "https://www.instagram.com/",
+            href: "https://www.instagram.com/nutrithaisbasso",
             alt: "Link do Instagram",
         },
         {
