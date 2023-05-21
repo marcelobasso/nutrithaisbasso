@@ -1,3 +1,8 @@
+section.ilustrated-menus {
+    background-color: var(--pallete-portfolio-second);
+    padding: 3rem 0;
+}
+
 section.ilustrated-menus .gatsby-image-wrapper {
     width: 100%;
     border-radius: 24px;
@@ -22,4 +27,10 @@ section.ilustrated-menus .row-container-il-images {
 
 section.ilustrated-menus .row-container-il-images .il-image-container:nth-child(1) {
     height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    section.ilustrated-menus {
+        padding: 2rem 0;
+    }
 }

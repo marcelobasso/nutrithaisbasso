@@ -46,7 +46,7 @@ export default function Features(data) {
             title: "Fitoterapia integrativa",
             text: <>Aprenda como usar o poder das <span className="green-underline"><b>ervas e chás</b></span> para o tratamento e a prevenção das mais diversas patologias e para o seu bem-estar em geral.</>,
             image: <MintTea />,
-            action: "Usar o poder da natureza"
+            action: "Aprender a usar ervas e chás"
         },
     ];
 

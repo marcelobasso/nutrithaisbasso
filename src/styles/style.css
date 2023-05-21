@@ -107,6 +107,10 @@ h1, h2, h3 {
     font-family: var(--titles-font);
 }
 
+h1, h2, h3, h4 {
+    color: var(--pallete-portfolio-first);
+}
+
 .fs-1gg {
     font-size: 3rem !important;
 }

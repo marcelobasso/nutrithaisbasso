@@ -20,13 +20,11 @@ export default function IlustratedMenus() {
         }
     `);
 
-    console.log(IlustratedMenus.images.edges.map(img => img.node.childImageSharp.gatsbyImageData))
     const images = IlustratedMenus.images.edges.map(image => <GatsbyImage image={image.node.childImageSharp.gatsbyImageData} alt="imagem cardápios ilustrados" />)
-    console.log(images);
 
     return (
-        <section className="ilustrated-menus py-4">
-            <Container>
+        <section className="ilustrated-menus">
+            <Container className="px-3">
                 <Section
                     className="text-center px-3"
                     title={

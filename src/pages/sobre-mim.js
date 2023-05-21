@@ -39,7 +39,7 @@ export default function sobreMim() {
                 name: "Instagram",
                 icon: "fab fa-instagram",
                 content: "Instagram",
-                href: "https://www.instagram.com/",
+                href: "https://www.instagram.com/nutrithaisbasso",
             },
             {
                 name: "Facebook",

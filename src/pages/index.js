@@ -29,7 +29,7 @@ export default function Home() {
             <Portfolio />
             <SpecialFeatures />
             <SocialProof />
-            <ActionBanner text="Venha comigo desvendar uma forma mais saudável de ser" image={<Woman />} />
+            <ActionBanner text="Venha comigo desvendar uma forma mais saudável de se alimentar" image={<Woman />} />
         </Layout>
     );
 }

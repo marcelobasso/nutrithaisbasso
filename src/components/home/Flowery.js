@@ -18,7 +18,6 @@ export default function Flowery() {
         }
     `);
 
-    console.log(query);
     const floweryImage = getImage(query.image.edges[0].node.childImageSharp.gatsbyImageData);
 
     return <GatsbyImage className="flowery_image" image={floweryImage} />;
