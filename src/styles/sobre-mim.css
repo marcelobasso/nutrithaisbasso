@@ -7,9 +7,10 @@ section.bio svg {
     height: fit-content;
 }
 
-section.bio .svg-container {
+section.bio .image-container {
     max-width: 50%;
     margin-right: 40px;
+    margin-bottom: 40px;
     float: left;
 }
 
@@ -57,10 +58,32 @@ section.cv .cv-items .item a:hover {
     text-decoration: underline;
 }
 
+section.bio .image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+
+section.bio .image-container .gatsby-image-wrapper {
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+}
+
+section.bio .image-container .gatsby-image-wrapper.left img {
+    margin-left: auto;
+}
+
 @media screen and (max-width: 768px) {
-    section.bio .svg-container {
+    section.bio .image-container {
         max-width: 100%;
         margin-right: 0;
         float: none;
+    }
+
+    section.bio .image-container .gatsby-image-wrapper {
+        width: auto;
+        height: auto;
     }
 }

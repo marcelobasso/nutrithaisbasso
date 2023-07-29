@@ -2,6 +2,7 @@ section.aboutMe {
     background-color: var(--pallete-portfolio-second);
     padding: 48px .5rem;
     margin: 3rem 0;
+    z-index: 1;
 }
 
 section.aboutMe button.callToAction {

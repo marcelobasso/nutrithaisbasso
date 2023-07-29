@@ -11,7 +11,7 @@ export default function Treatment() {
     };
 
     const queryData = useStaticQuery(graphql`
-        query ImagesTreatment {
+        query ImagesTreat {
             plates: allFile(filter: { relativePath: { regex: "/plates/" } }) {
                 edges {
                     node {

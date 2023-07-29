@@ -7,12 +7,15 @@ import "../styles/sobre-mim.css";
 import Links from "../components/sobre-mim/Links";
 import CVList from "../components/sobre-mim/CVList";
 import ButtonStyle from "../images/undraw/undraw_button_style_white.svg";
-import PersonalSite from "../images/undraw/undraw_personal_site.svg";
 import ActionBanner from "../components/common/ActionBanner";
+import { graphql } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 export const Head = () => <Seo title="Sobre mim | Thaís Basso Nutricionista" />;
 
-export default function sobreMim() {
+export default function sobreMim(props) {
+    const image = props.data.logo.childImageSharp.gatsbyImageData;
+
     const sobreMimLinks = [
         [
             {
@@ -102,8 +105,8 @@ export default function sobreMim() {
             <section class="bio mx-3">
                 <Container className="my-4">
                     <div>
-                        <div className="svg-container">
-                            <PersonalSite className="online-resume" />
+                        <div className="image-container">
+                            <GatsbyImage image={image} alt="Profile image" />
                         </div>
                         <div className="text-container">
                             <p>
@@ -173,3 +176,13 @@ export default function sobreMim() {
         </Layout>
     );
 }
+
+export const query = graphql`
+    query ProfileImageThais {
+        logo: file(relativePath: { eq: "fotos-thais/foto-perfil-square2.png" }) {
+            childImageSharp {
+                gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
+            }
+        }
+    }
+`;

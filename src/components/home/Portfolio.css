@@ -1,11 +1,12 @@
 section.portfolio div.white {
-    background-color: var(--pallete-violet-light-hov);
-    color: white;
+    background-color: var(--pallete-portfolio-second);
+    color: var(--pallete-portfolio-first);
     border-radius: 24px;
 }
 
 section.portfolio .container h3 {
-    color: white;
+    color: var(--pallete-portfolio-first);
+    font-size: 3rem;
 }
 
 section.portfolio {
@@ -16,9 +17,8 @@ section.portfolio div.portfolio-container {
     padding: 3rem 1rem;
 }
 
-section.portfolio h3 {
-    font-size: 3rem;
-    color: white;
+section.portfolio button {
+    background-color: var(--pallete-portfolio-first);
 }
 
 @media only screen and (max-width: 480px) {

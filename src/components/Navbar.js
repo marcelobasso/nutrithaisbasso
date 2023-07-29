@@ -21,6 +21,11 @@ export default function Navbar() {
             to: "/contato",
             ariaLabel: "Informações de contato",
         },
+        {
+            name: "Atendimentos",
+            to: "/atendimentos",
+            ariaLabel: "Informações sobre as consultas e valores dos planos.",
+        }
     ];
 
     // {

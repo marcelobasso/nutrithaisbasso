@@ -135,6 +135,26 @@ h1, h2, h3, h4 {
     font-weight: normal !important;
 }
 
+.pink-background {
+    background-color: var(--pallete-portfolio-second);
+}
+
+.white-background {
+    background-color: white;
+}
+
+.page-content > * {
+    animation: appear 1s;
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 /* medium */
 @media screen and (max-width: 768px) {
