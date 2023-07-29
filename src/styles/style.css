@@ -125,6 +125,7 @@ h1, h2, h3, h4 {
 
 .shadow-custom {
     border-radius: 24px;
+    margin-right: 30px;
     box-shadow: 20px 20px 0px 5px var(--pallete-violet-dark) !important;
 }
 

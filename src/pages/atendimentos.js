@@ -19,7 +19,7 @@ export default function atendimentos() {
                     <Container>
                         <Row className="px-3">
                             <SectionTitle className="text-center">Nutri, o que faz parte da consulta?</SectionTitle>
-                            <SectionText>As consultas incluem algumas estapas pré e pós o encontro presencial comigo. Abaixo, você pode checar um pouco do que são as principais etapas de uma consulta.</SectionText>
+                            <SectionText>Conheça minha nova forma de trabalho! Simplifico o que tem de mais atual na nutrição atual e traduzo tudo em um plano totalmente personalizado composto com orientações nutricionais baseadas sempre na sua rotina, cardápios ilustrados que te ensinam como combinar os alimentos e como fazer escolhas mais saudáveis em qualquer lugar! <br /><br />Seja comendo em casa, fora de casa, numa viagem ou em um evento social. Nosso mundo está mudando, e a nutrição está mudando com ele... Você merece aprender a comer de forma saudável sem depender de dietas malucas e com restrições desnecessárias!</SectionText>
                         </Row>
                         <Row>
                             <Roadmap />
@@ -29,15 +29,40 @@ export default function atendimentos() {
                 </div>
             </section>
 
-            <section className="planos my-5">
+            <section className="investimento my-4">
                 <Container>
-                    <div className="">
+                    <div className="m-3">
                         <Row>
-                            <SectionTitle className="text-center">Conheça os planos dispoíveis</SectionTitle>
+                            <div className="col-lg-6 col-md-12">
+                                <div className="my-5">
+                                    <SectionTitle className="text-center">Qual o investimento?</SectionTitle>
+                                </div>
+                                <div className="my-3">
+                                    <div className="bigger shadow-custom">
+                                        <h3>Primeira consulta + retorno: <span className="price">R$ 320,00</span></h3>
+                                        <p>Incluso: 1ª consulta: 1h15min e retorno em 7 dias (50 min).</p>
+                                    </div>
+                                    <h3>Consultas de retorno avulsas: <span className="price">R$ 185,00</span></h3>
+                                    <p>* Consulte os programas de consultas para preços especiais</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-12">
+                                <div className="my-5">
+                                    <SectionTitle className="text-center">Quais são as formas de pagamento?</SectionTitle>
+                                </div>
+                                <div className="my-3">
+                                    <ul className="formas-pagamento">
+                                        <li>À vista/ PIX</li>
+                                        <li>Cartão de débito</li>
+                                        <li>Cartão de crédito</li>
+                                        <li>Link de pagamento</li>
+                                    </ul>
+                                    <br />
+                                    <p className="observacoes">* Os planos e consultas podem ser parceladas. Entre em contato e consulte as condições.</p>
+                                </div>
+                            </div>
                         </Row>
                     </div>
-
-
                 </Container>
             </section>
 
