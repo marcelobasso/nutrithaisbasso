@@ -72,7 +72,7 @@ div.group-box {
 }
 
 div.group-box.content {
-    padding-bottom: 64px;
+    padding-bottom: 48px;
 }
 
 div.group-box h2 {
@@ -80,6 +80,12 @@ div.group-box h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div.group-box p.group-description {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @keyframes popup {
@@ -95,16 +101,27 @@ div.group-box h2 {
 
 @media screen and (max-width: 768px) {
     span.item-number {
-        width: 30px;
-        height: 30px;
         margin-left: -10px;
-        line-height: 30px;
-        font-size: 14px;
     }
 
     section.investimento .formas-pagamento,
     section.investimento .observacoes {
         text-align: left;
         margin: 0;
+    }
+
+    div.group-box .box {
+        margin-top: 32px;
+    }
+
+    div.group-box p.group-description {
+        width: 90%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+    h2, h3 {
+        font-size: 2rem;
     }
 }

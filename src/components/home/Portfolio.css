@@ -17,6 +17,11 @@ section.portfolio div.portfolio-container {
     padding: 3rem 1rem;
 }
 
+section.portfolio button.callToAction {
+    color: var(--pallete-portfolio-first);
+    background-color: white;
+}
+
 @media only screen and (max-width: 480px) {
     section.portfolio {
         margin: 16px;
