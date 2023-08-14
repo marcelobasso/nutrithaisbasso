@@ -42,8 +42,6 @@ export default function atendimentos() {
                                         <h3>Primeira consulta + retorno: <span className="price">R$ 320,00</span></h3>
                                         <p>Incluso: 1ª consulta: 1h15min e retorno em 7 dias (50 min).</p>
                                     </div>
-                                    <h3>Consultas de retorno avulsas: <span className="price">R$ 185,00</span></h3>
-                                    <p>* Consulte os programas de consultas para preços especiais</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12">
@@ -58,7 +56,7 @@ export default function atendimentos() {
                                         <li>Link de pagamento</li>
                                     </ul>
                                     <br />
-                                    <p className="observacoes">* Os planos e consultas podem ser parceladas. Entre em contato e consulte as condições.</p>
+                                    <p className="observacoes">* Entre em contato e consulte as condições de parcelamento.</p>
                                 </div>
                             </div>
                         </Row>

@@ -75,6 +75,19 @@ section.bio .image-container .gatsby-image-wrapper.left img {
     margin-left: auto;
 }
 
+div.youtube-video-embeded .video-container {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+div.youtube-video-embeded .video-container iframe {
+    width: 100%;
+    min-height: 600px;
+    border-radius: 32px;
+    margin-bottom: 32px;
+}
+
 @media screen and (max-width: 768px) {
     section.bio .image-container {
         max-width: 100%;
@@ -85,5 +98,10 @@ section.bio .image-container .gatsby-image-wrapper.left img {
     section.bio .image-container .gatsby-image-wrapper {
         width: auto;
         height: auto;
+    }
+
+    div.youtube-video-embeded .video-container iframe {
+        min-height: unset;
+        max-height: 300px;
     }
 }
