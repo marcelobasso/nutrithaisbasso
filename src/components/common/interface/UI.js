@@ -42,4 +42,12 @@ const CallToAction = (props) => {
     );
 };
 
-export { SectionText, SectionTitle, Row, Container, PageTitle, CallToAction };
+const ShadowBox = (props) => {
+    return (
+        <div className={`${props.className || ''} shadow-custom p-4`}>
+            {props.children}
+        </div>
+    );
+}
+
+export { SectionText, SectionTitle, Row, Container, PageTitle, CallToAction, ShadowBox };

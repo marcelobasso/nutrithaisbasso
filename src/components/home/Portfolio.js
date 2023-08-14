@@ -8,7 +8,7 @@ export default function Portfolio() {
             <Container>
                 <div className="portfolio-container text-center white">
                     <SectionTitle>
-                    <i class="fas fa-book-open-reader" style={{marginRight: '24px'}}></i>Conheça meu <span className="green-underline">portfólio profissional</span>
+                    <i class="fas fa-book-open-reader" style={{marginRight: '24px'}}></i>Conheça meu portfólio profissional
                     </SectionTitle>
                     <SectionText>
                         Leia mais sobre como funcionam os atendimentos e consulte os <b>valores dos planos e consultas ;)</b>

@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, SectionTitle } from "../common/interface/UI";
-import Reviews from "../../images/undraw/undraw_reviews.svg";
+import { CallToAction, Container, Row, SectionTitle } from "../common/interface/UI";
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import "./SocialProof.css";
@@ -104,7 +103,7 @@ export default function SocialProof() {
                                         <p className="mb-3 mt-2">{opinion.name}</p>
                                         <p className="m-0 opinion-content">"{opinion.text}"</p>
                                         <p className="m-0 mt-3 text-end">
-                                            <a href={opinion.link} key={index} target="_blank" alt="Visualizar avalização no Google" className="link-avaliacao text">
+                                            <a href={opinion.link} key={index} rel="noreferrer" target="_blank" alt="Visualizar avalização no Google" className="link-avaliacao text">
                                                 Visualizar avaliação completa
                                             </a>
                                         </p>
@@ -113,6 +112,11 @@ export default function SocialProof() {
                             </div>
                         </div>
                     ))}
+                </Row>
+                <Row className="p-3">
+                    <div className="advice-message p-4 px-5 popup text-center">
+                        <CallToAction href="https://www.google.com/maps/place/Tha%C3%ADs+Basso+Nutricionista+Funcional+e+comportamental/@-29.2939876,-51.4989672,17z/data=!4m8!3m7!1s0x951c195e1b1bb64f:0x5e8468a758137428!8m2!3d-29.2939923!4d-51.4963869!9m1!1b1!16s%2Fg%2F11p0_77cs2?hl=pt-BR&entry=ttu" text="Ver mais avaliações no Google" rel="noreferrer" target="_blank" />
+                    </div>
                 </Row>
             </Container>
         </section>

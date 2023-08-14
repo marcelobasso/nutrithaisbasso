@@ -5,7 +5,7 @@ import "./Flowery.css";
 
 export default function Flowery() {
     const query = useStaticQuery(graphql`
-        query Flowery {
+        query Flower {
             image: allFile(filter: { name: { eq: "flowery" } }) {
                 edges {
                     node {
