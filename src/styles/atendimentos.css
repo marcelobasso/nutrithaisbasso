@@ -88,6 +88,10 @@ div.group-box p.group-description {
     text-align: center;
 }
 
+div.group-box .box > div {
+    height: 100%;
+}
+
 @keyframes popup {
     0% {
         margin-top: 50px;
