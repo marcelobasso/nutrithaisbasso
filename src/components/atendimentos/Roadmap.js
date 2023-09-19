@@ -29,7 +29,7 @@ export default function Roadmap() {
             ]
         },
         {
-            groupTitle: "3 Consulta de retorno",
+            groupTitle: "Consulta de retorno",
             groupDescription: "Após alguns dias do nosso primeiro encontro, iremos nos encontrar novamente de forma online ou presencial para entrega do seu plano de tratamento personalizado. Ele é composto por:",
             content: [
                 {
@@ -47,7 +47,7 @@ export default function Roadmap() {
             ]
         },
         {
-            groupTitle: "4 Trilhas de consultas",
+            groupTitle: "Trilhas de consultas",
             groupDescription: "Após a consulta de retorno, irei te passar qual o programa mais indicado para você dar início a sua mudança, conseguir mudar seus hábitos e consolidar tudo que aprendeu. Esse é um plano completo de nutrição e comportamento, onde você aprende o quê, como, e por quê do que está fazendo, bem como, a melhor forma de manter todos os seus resultados a longo prazo.",
             content: [],
             htmlContent:  (
