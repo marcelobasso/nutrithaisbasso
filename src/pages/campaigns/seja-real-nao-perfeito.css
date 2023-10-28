@@ -71,3 +71,9 @@ section.investimento .bigger.shadow-custom {
         height: 100vh;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    .investimento div.bigger h3 {
+        font-size: 2rem;
+    }
+}
