@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Row } from "../common/interface/UI";
+import "./Advice.css";
 
-export default function Advice() {
+export default function Advice(props) {
     return (
         <div className="advice">
             <Container>
                 <Row className="p-3">
+                    <h4>{props.title}</h4>
                     <div className="advice-message p-4 px-5 popup">
-                        <span>A partir da consulta experimental iremos montar o seu plano personalizado com retornos semanais, quinzenais ou mensais. Ele deve ser montado em conjunto com o nutricionista que avaliará qual o melhor tratamento a seguir de acordo com o seu objetivo.</span>
+                        <span>{props.advice}</span>
                     </div>
                 </Row>
             </Container>

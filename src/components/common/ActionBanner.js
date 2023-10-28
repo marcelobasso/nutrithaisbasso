@@ -13,7 +13,8 @@ export default function ActionBanner(props) {
                         </div>
                         <SectionTitle className="action-banner-title">{props.text}</SectionTitle>
                         <div className="text-center">
-                            <CallToAction text={props.CallToAction} className="mt-4" />
+                            <p className="action-banner-content" style={{display: props.content ? 'block' : 'none'}}>{props.content}</p>
+                            <CallToAction href={props.href || null} text={props.callToAction || null} className="mt-4" />
                         </div>
                     </div>
                 </div>

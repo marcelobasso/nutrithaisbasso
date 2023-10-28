@@ -5,12 +5,12 @@ import { Row, Container } from "../common/interface/UI.js";
 import Section from "../common/Section.js";
 import "./Treatment.css";
 
-export default function Treatment() {
+export default function Treatment(props) {
     const constructImages = (listName) => {
         return queryData[listName].edges.map((edge, index) => <GatsbyImage alt="Prato ilustrativo" image={getImage(edge.node.childImageSharp.gatsbyImageData)} className={index < 2 && "left"} />);
     };
 
-    const queryData = useStaticQuery(graphql`
+    var queryData = useStaticQuery(graphql`
         query ImagesTreat {
             plates: allFile(filter: { relativePath: { regex: "/plates/" } }) {
                 edges {
@@ -34,7 +34,14 @@ export default function Treatment() {
         }
     `);
 
-    const sections = [
+    if (props.query) {
+        queryData = props.query;
+    }
+
+    const plates = constructImages("plates");
+    const foods = constructImages("foods");
+
+    const sections = props.sections || [
         {
             title: "Para quem é o acompanhamento nutricional?",
             content: (
@@ -49,7 +56,7 @@ export default function Treatment() {
                     </p>
                 </>
             ),
-            images: constructImages("plates"),
+            images: plates,
         },
         {
             title: "O que vou ganhar com o tratamento nutricional?",
@@ -60,14 +67,21 @@ export default function Treatment() {
                     <p>Você estará investindo no seu eu do futuro, prevenindo doenças e sentindo-se mais disposto e produtivo no seu dia a dia.</p>
                 </>
             ),
-            images: constructImages("foods"),
+            images: foods,
         },
     ];
+
+    if (typeof props.sections != undefined) {
+        sections[0].images = plates;
+        sections[1].images = foods;
+    }
+
+
 
     return (
         <section className="treatment">
             {sections.map((section, index) => (
-                <Container className="p-5" key={index}>
+                <Container className={`p-5 n-${index}`} key={index}>
                     <Row className={index % 2 && "flex-row-reverse"}>
                         <div className="acompanhamento-imagens col-lg-6 col-md-12 p-4">
                             <Row>

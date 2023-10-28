@@ -18,6 +18,11 @@ section.action-banner div.action-banner-box {
     color: var(--pallete-portfolio-first);
 }
 
+section.action-banner p.action-banner-content {
+    margin: 0 32px;
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     section.action-banner .action-banner-title {
         margin: 0;

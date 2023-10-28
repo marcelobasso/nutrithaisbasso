@@ -1,0 +1,73 @@
+nav.navbar.seja-real-nao-perfeito ,
+div.filler.seja-real-nao-perfeito  {
+    display: none !important;
+}
+
+.seja-real-nao-perfeito div.flowery_image {
+    top: 0;
+    width: 20vw;
+}
+
+.seja-real-nao-perfeito header.home {
+    margin-bottom: 0;
+}
+
+.seja-real-nao-perfeito h4.header-subtitle {
+    font-size: 16px;
+    margin-top: -16px;
+    margin-bottom: 32px;
+}
+
+.seja-real-nao-perfeito section.aboutMe .section-subtitle {
+    font-size: 1.2rem;
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+
+.seja-real-nao-perfeito section.aboutMe div.image-container {
+    width: 100%;
+}
+
+.seja-real-nao-perfeito div.shadow-custom,
+.seja-real-nao-perfeito .shadow-custom {
+    border: none;
+    margin-right: 0;
+    box-shadow: none !important;
+}
+
+section.investimento .bigger.shadow-custom {
+    border: 1px var(--pallete-portfolio-first) solid;
+    /* box-shadow: 20px 20px 0px 5px var(--pallete-violet-dark) !important; */
+}
+
+.seja-real-nao-perfeito section.investimento ul {
+    list-style-type: circle;
+}
+
+.seja-real-nao-perfeito section.investimento .formas-pagamento {
+    text-align: left;
+}
+
+.seja-real-nao-perfeito .effect-phrase {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--pallete-violet);
+}
+
+@media only screen and (max-width: 480px) {
+    .seja-real-nao-perfeito div.flowery_image {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: -10;
+        opacity: .25;
+    }
+
+    .seja-real-nao-perfeito header.home {
+        height: 100vh;
+    }
+}

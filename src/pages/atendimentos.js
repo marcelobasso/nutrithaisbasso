@@ -25,7 +25,7 @@ export default function atendimentos() {
                             <Roadmap />
                         </Row>
                     </Container>
-                    <Advice />
+                    <Advice advice="A partir da consulta experimental iremos montar o seu plano personalizado com retornos semanais, quinzenais ou mensais. Ele deve ser montado em conjunto com o nutricionista que avaliará qual o melhor tratamento a seguir de acordo com o seu objetivo." />
                 </div>
             </section>
 

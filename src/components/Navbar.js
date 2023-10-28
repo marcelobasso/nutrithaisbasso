@@ -3,7 +3,7 @@ import React from "react";
 import { Container } from "./common/interface/UI";
 import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar(props) {
 
     const PAGES = [
         {
@@ -58,7 +58,7 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav className={`navbar navbar-expand-lg navbar-light bg-light fixed-top ${props.page}`}>
             <Container className="justify-content-between">
                 <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fas fa-bars"></i>

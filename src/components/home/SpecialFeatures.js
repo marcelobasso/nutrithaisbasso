@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, SectionTitle } from "../common/interface/UI";
 import "./SpecialFeatures.css";
 
-export default function SpecialFeatures() {
-    const specialFeatures = [
+export default function SpecialFeatures(props) {
+    const specialFeatures = props.specialFeatures || [
         {
             icon: "fas fa-diagnoses",
             title: "No seu tempo e do seu jeito",
@@ -20,7 +20,7 @@ export default function SpecialFeatures() {
             description: "Ilustrados e personalizados para a sua alimentação, facilitando a compreensão de uma rotina alimentar variada e completa."
         }
 
-    ]
+    ];
 
     return (
         <section className="special-features my-5">
