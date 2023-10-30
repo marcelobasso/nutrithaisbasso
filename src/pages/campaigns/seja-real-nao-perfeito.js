@@ -80,7 +80,7 @@ export default function sejaRealNaoPerfeito(props) {
             
             <AboutMe 
                 title="SEJA REAL, NÃO PERFEITO"  
-                subtitle="NO GRUPO DE DESAFIOS MAIS ESPERADO DO ANO!"
+                subtitle="O GRUPO DE DESAFIOS MAIS ESPERADO DO ANO!"
                 content={<>Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. <br/><br/>Sei da importância da mudança de hábitos e de comportamentos para manutenção dos resultados a longo prazo. Também sei que saúde é um conjunto de pilares de estilo de vida, e que precisamos estar cuidando de cada um deles diariamente! Esse grupo vai te ajudar a <u>criar 10 novos hábitos</u> em um período de 21 dias e dar início a uma grande mudança na sua vida!</>} 
                 image={image}
                 callToAction="Inscreva-se agora"
