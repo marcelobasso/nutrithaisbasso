@@ -43,7 +43,7 @@ export default function sejaRealNaoPerfeito(props) {
         {
             icon: "fa-solid fa-bars-progress",
             title: "Desafios semanais",
-            description: "Serão lançados 3 desafios por semana, no domingo à noite, totalizando 9 novos hábitos cultivados ao final do grupo."
+            description: "Serão lançados 3 desafios por semana a partir do dia 13/11, no domingo à noite, totalizando 9 novos hábitos cultivados ao final do grupo."
         },
         {
             icon: "fa-brands fa-pagelines",
@@ -80,8 +80,8 @@ export default function sejaRealNaoPerfeito(props) {
             
             <AboutMe 
                 title="SEJA REAL, NÃO PERFEITO"  
-                subtitle="O GRUPO DE DESAFIOS MAIS ESPERADO DO ANO!"
-                content={<>Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. <br/><br/>Sei da importância da mudança de hábitos e de comportamentos para manutenção dos resultados a longo prazo. Também sei que saúde é um conjunto de pilares de estilo de vida, e que precisamos estar cuidando de cada um deles diariamente! Esse grupo vai te ajudar a <u>criar 10 novos hábitos</u> em um período de 21 dias e dar início a uma grande mudança na sua vida!</>} 
+                subtitle={<>O GRUPO DE DESAFIOS MAIS ESPERADO DO ANO!<br/>De 13/11 a 04/12</>}
+                content={<>Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. <br/><br/>Sei da importância da mudança de hábitos e de comportamentos para manutenção dos resultados a longo prazo. Também sei que saúde é um conjunto de pilares de estilo de vida, e que precisamos estar cuidando de cada um deles diariamente! Esse grupo vai te ajudar a <u>criar 10 novos hábitos</u> em um período de 21 dias, de 13/11 a 04/12, e dar início a uma grande mudança na sua vida!</>} 
                 image={image}
                 callToAction="Inscreva-se agora"
                 href="https://mpago.la/18mL4Lp"
