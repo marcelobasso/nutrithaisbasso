@@ -39,8 +39,8 @@ export default function atendimentos() {
                                 </div>
                                 <div className="my-3">
                                     <div className="bigger shadow-custom">
-                                        <h3>Primeira consulta + retorno: <span className="price">R$ 320,00</span></h3>
-                                        <p>Incluso: 1ª consulta: 1h15min e retorno em 7 dias (50 min).</p>
+                                        <h3>Primeira consulta + retorno: <span className="price">R$ 350,00</span></h3>
+                                        <p>Incluso: 1ª consulta (1h15min) + retorno (50 min).</p>
                                     </div>
                                 </div>
                             </div>
