@@ -104,12 +104,12 @@ export default function sobreMim(props) {
             <Header title="Conheça mais sobre mim" subtitle=" Minha formação profissional e um pouco da minha história para você me conhecer melhor." />
             <section class="bio mx-3">
                 <Container className="my-4">
-                    <div className="youtube-video-embeded text-center">
+                    {/* <div className="youtube-video-embeded text-center">
                         <div className="video-container text-center">
                             <iframe src="https://www.youtube.com/embed/58I5pmPLHRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                         </div>
-                    </div>
-                    <div className="mt-5">
+                    </div> */}
+                    <div className="">
                         <div className="image-container">
                             <GatsbyImage image={image} alt="Profile image" />
                         </div>
