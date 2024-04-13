@@ -2,9 +2,13 @@ footer {
     background-color: var(--pallete-portfolio-second);
 }
 
-footer div.footerHi {
+footer div.footerHi, footer div.footerHi span a {
     background-color: var(--pallete-violet-dark);
     color: white;
+}
+
+footer div.footerHi span a {
+    text-decoration: underline;
 }
 
 footer img.logo {

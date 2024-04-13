@@ -40,6 +40,11 @@ section.investimento .bigger.shadow-custom {
     /* box-shadow: 20px 20px 0px 5px var(--pallete-violet-dark) !important; */
 }
 
+section.investimento .bigger.inline {
+    display: flex;
+    justify-content: space-between;
+}
+
 .seja-real-nao-perfeito section.investimento ul {
     list-style-type: circle;
 }
@@ -69,6 +74,10 @@ section.investimento .bigger.shadow-custom {
 
     .seja-real-nao-perfeito header.home {
         height: 100vh;
+    }
+
+    section.investimento .bigger.inline {
+        display: block;
     }
 }
 

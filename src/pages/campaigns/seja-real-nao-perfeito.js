@@ -17,51 +17,52 @@ export default function sejaRealNaoPerfeito(props) {
     const image = props.data.ProfileImageCampaign.childImageSharp.gatsbyImageData;
     const treatmentSection = [
         {
-            title: "PARA QUEM É O GRUPO?",
+            title: "PARA QUEM É A COMUNIDADE?",
             content: (
                 <>
                     <p className="header-text">
-                    O grupo é para todas aquelas pessoas que querem perder peso, melhorar a qualidade de vida, criar novos hábitos saudáveis, ter mais saúde, ter mais disposição, motivação, e energia. Para as pessoas que querem iniciar o seu processo de mudança e não sabem por onde começar, que querem parar de consumir conteúdos rasos e fake news na internet. Que tem responsabilidade com a sua saúde e querem mudar de vida. Para todas as pessoas que querem parar de se comparar e começar a focar na mudança que precisam fazer em suas próprias vidas!!
-                    </p>
+                    Para aquelas pessoas que querem melhorar a qualidade de vida, criar novos hábitos saudáveis, ter mais saúde, ter mais disposição, motivação, e energia, alcançar e manter um peso saudável. Para as pessoas que querem iniciar o seu processo de mudança e não sabem por onde começar, que querem parar de consumir conteúdos rasos e fake news na internet. Que tem responsabilidade com a sua saúde e querem mudar de vida. Para todas as pessoas que querem parar de se comparar e começar a focar na mudança que precisam fazer em suas próprias vidas!</p>
                 </>
             ),
             images: null
         },
         {
-            title: "O QUE VOU GANHAR COM O GRUPO?",
+            title: "O QUE VOU APRENDER COM A COMUNIDADE?",
             content: (
                 <>
                     <p className="header-text">
-                    Você conseguirá criar 10 novos hábitos importantes para a melhora da sua saúde, funcionamento do seu corpo, disposição, energia e melhora do seu sono! Serão 3 desafios por 3 semanas, totalizando 9 novos hábitos saudáveis, e o décimo desafio no final do grupo! Você estará muito mais perto de consolidar novos comportamentos saudáveis em sua vida, envolvendo alimentação, sono, exercício físico, manejo do stress, controle de vícios e relacionamentos saudáveis. Estarei acompanhando cada participante pelo grupo fechado no WhatsApp e praticando ativamente com todos vocês! Serão  3 semanas intensas e importantes para todos nós.
+                        Você terá acesso a módulos de aulas gravadas esclarecendo o que é saúde, como você pode começar a ter uma vida mais saudável, inovações na área da nutrição e saúde, desmistificando mitos e dietas radicais.
+                    </p>
+                    <p className="header-text">
+                        Com o acesso ao conhecimento, e aumento da consciência sobre a importância da prevenção na sua vida, você conseguirá, finalmente, criar novos hábitos importantes para a melhora da sua saúde, funcionamento do seu corpo, disposição, energia e melhora do seu sono!
+                    </p>
+                    <p className="header-text">
+                        Teremos aulas ao vivo de forma mensal para trocas entre os participantes e a mentora.
+                    </p>
+                    <p className="header-text">
+                        Você estará muito mais perto de consolidar novos comportamentos saudáveis em sua vida, envolvendo alimentação, sono, exercício físico, manejo do stress, controle de vícios e relacionamentos saudáveis. Acompanharei cada participante pelo grupo fechado no WhatsApp e praticando ativamente com todos vocês! Tirando todas as dúvidas e trazendo conteúdos novos semanalmente.
                     </p>
                 </>
             ),
             images: null
         }
     ];
+
     const specialFeatures = [
         {
-            icon: "fa-solid fa-bars-progress",
-            title: "Desafios semanais",
-            description: "Serão lançados 3 desafios por semana a partir do dia 13/11, no domingo à noite, totalizando 9 novos hábitos cultivados ao final do grupo."
+            icon: "fa-solid fa-user-clock",
+            title: "No seu tempo e do seu jeito",
+            description: "Conteúdos semanais: aulas gravadas com temas como alimentação saudável, tipos de fome, comportamento alimentar, sono, exercícios físicos, intestino, psicologia nutricional, relação saudável com a comida, relacionamentos e nutrição, manejo do stress, controle de vícios, novidades na área da saúde."
         },
         {
-            icon: "fa-brands fa-pagelines",
-            title: "Acompanhamento de resultados",
-            description: <>Os desafios serão lançados e os participantes serão acompanhados e participarão no grupo por: 
-                <ul style={{marginTop: '8px'}}>
-                    <li>Fotos cumprindo os desafios</li>
-                    <li>Dúvidas compartilhadas com o grupo</li>
-                    <li>Envio de ideias e receitas</li>
-                    <li>Compartilhamento de dificuldades</li>
-                    <li>Tira-dúvidas com a nutri mentora diariamente</li>
-                </ul>
-            </>
+            icon: "fa-solid fa-users",
+            title: "Com acompanhamento",
+            description: "Ao final de cada módulo teremos alguns desafios e temas de casa, para que você consiga colocar em ação tudo que está aprendendo... Iremos compartilhar via grupo do WhatsApp todas as ações, dúvidas e inspirações para vocês."
         },
         {
-            icon: "fa-solid fa-comments",
-            title: "Encontros ao vivo",
-            description: "Faremos 1 encontro ao vivo no início e no final das 3 semanas, possibilitando um contato mais real e próximo com a nutri e com os desafios."
+            icon: "fa-solid fa-headset",
+            title: "Encontros mensais ao vivo",
+            description: "Todo mês teremos encontro ao vivo para vocês tirarem todas as dúvidas e compartilharem com toda a comunidade."
         }
 
     ];
@@ -80,8 +81,8 @@ export default function sejaRealNaoPerfeito(props) {
             
             <AboutMe 
                 title="SEJA REAL, NÃO PERFEITO"  
-                subtitle={<>O GRUPO DE DESAFIOS MAIS ESPERADO DO ANO!<br/>De 13/11 a 04/12</>}
-                content={<>Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar. Sou apaixonada pela minha profissão e por como ela pode mudar a vida das pessoas. <br/><br/>Sei da importância da mudança de hábitos e de comportamentos para manutenção dos resultados a longo prazo. Também sei que saúde é um conjunto de pilares de estilo de vida, e que precisamos estar cuidando de cada um deles diariamente! Esse grupo vai te ajudar a <u>criar 10 novos hábitos</u> em um período de 21 dias, de 13/11 a 04/12, e dar início a uma grande mudança na sua vida!</>} 
+                subtitle={<>UMA COMUNIDADE SOBRE SAÚDE, NUTRIÇÃO E ESTILO DE VIDA, BASEADA EM EVIDÊNCIAS</>}
+                content={<>Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar. Sou apaixonada pela minha profissão e acho incrível como ela pode mudar a vida das pessoas.<br/><br/>Sei da importância da mudança de hábitos e de comportamentos para manutenção dos resultados a longo prazo. Também sei que saúde é um conjunto de pilares de estilo de vida, e que precisamos estar cuidando de cada um deles diariamente! Essa comunidade ajuda a criar hábitos, baseados em educação de qualidade, e aumento da consciência sobre saúde e estilo de vida. Fazendo você finalmente alcançar seus objetivos e mantê-los a longo prazo, sem ficar refém de dietas da moda.</>} 
                 image={image}
                 callToAction="Inscreva-se agora"
                 href="https://mpago.la/18mL4Lp"
@@ -94,7 +95,17 @@ export default function sejaRealNaoPerfeito(props) {
             
             <SpecialFeatures specialFeatures={specialFeatures} />
 
-            <Advice title="IMPORTANTE" advice="O grupo tem o objetivo de abranger mais pessoas que desejam cuidar da sua saúde e ter mais qualidade de vida. No grupo compartilharemos dúvidas, fotos, desafios, dificuldades. Não haverá envio de planos individualizados, isso acontece somente nas consultas de forma personalizada. Vocês irão receber acesso aos cardápios ilustrados, e ideias de cardápios e organização das refeições! Um ponto de partida para melhorar sua vida por completo!" />
+            <Advice title="IMPORTANTE" advice={<>
+                <p>
+                    A comunidade tem o objetivo de abranger mais pessoas que desejam cuidar da sua saúde e ter mais qualidade de vida. No grupo  do WhatsApp compartilharemos dúvidas, fotos, desafios, dificuldades. Não haverá envio de planos individualizados, pois para isso é necessário fazer uma avaliação individualizada. Vocês irão receber acesso aos cardápios ilustrados, e ideias de cardápios e organização das refeições! Um ponto de partida para melhorar sua vida por completo! 
+                </p>
+                <p>
+                    Vocês irão receber acesso aos cardápios ilustrados, e ideias de cardápios e organização das refeições! Um ponto de partida para melhorar sua vida por completo!
+                </p>
+                <p>
+                    Você irá aprender como organizar sua própria alimentação, sem depender de uma dieta restritiva. Terá autonomia e liberdade para escolher o que faz sentido comer em cada situação. Isso não é incrível?
+                </p>
+                </>}/>
 
             <section className="investimento my-4">
                 <Container>
@@ -107,8 +118,8 @@ export default function sejaRealNaoPerfeito(props) {
                                 <div className="my-3 mx-3">
                                     <ul className="formas-pagamento">
                                         <li>Por onde começar sua vida saudável</li>
-                                        <li>Montar refeições completas</li>
-                                        <li>Criar novos hábitos sustentáveis</li>
+                                        <li>O que é saúde?</li>
+                                        <li>Como criar hábitos sustentáveis?</li>
                                         <li>Como fazer planilha de metas</li>
                                         <li>Como gerenciar o stress</li>
                                         <li>Como organizar as refeições</li>
@@ -118,6 +129,8 @@ export default function sejaRealNaoPerfeito(props) {
                                         <li>Como fortalecer sua autoestima</li>
                                         <li>Ter manutenção dos hábitos a longo prazo!</li>
                                         <li>Como fazer trocas nutricionais inteligentes</li>
+                                        <li>Pilares da medicina do estilo de vida</li>
+                                        <li>Evidências sobre saúde e longevidade</li>
                                     </ul>
                                     <p style={{marginTop: '8px'}}>
                                         Também está incluso no grupo: check-in semanal para monitoramento e posts diários dos desafios.
@@ -130,15 +143,28 @@ export default function sejaRealNaoPerfeito(props) {
                                 </div>
                                 <div className="my-3">
                                     <div className="bigger shadow-custom">
-                                        <h3>Valor do grupo: <span className="price">R$ 119,90</span></h3>
-                                        <p><b><i>Pacientes têm <u>50% de desconto!</u></i></b></p>
+                                        <h3>Plano Semestral <span className="price">R$ 269,90</span></h3>
                                         <p style={{marginTop: "16px"}}>*caso for paciente, entre em contato para receber informações do cupom de desconto!</p>
                                         <div className="text-center mt-3">
                                             <CallToAction 
-                                                text="Seja real, não perfeito"
+                                                text="Inscrever-me"
                                                 href="https://mpago.la/18mL4Lp"
                                             />
                                         </div>
+                                    </div>
+                                    <div className="bigger inline">
+                                        <h3>Plano Mensal <span className="price">R$ 49,90</span></h3>
+                                        <CallToAction 
+                                            text="Inscrever-me"
+                                            href="https://mpago.la/18mL4Lp"
+                                        />
+                                    </div>
+                                    <div className="bigger inline">
+                                        <h3>Plano Anual <span className="price">R$ 480,00</span></h3>
+                                        <CallToAction 
+                                            text="Inscrever-me"
+                                            href="https://mpago.la/18mL4Lp"
+                                        />
                                     </div>
                                 </div>
                             </div>

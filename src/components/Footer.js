@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="footerHi p-3">
                 <Container className="d-flex justify-content-between">
                     <span>
-                        Made with <i className="fas fa-heart heart"></i> by Lucas and Marcelo
+                        Made with <i className="fas fa-heart heart"></i> by <a target="_blank" href="https://www.instagram.com/lucasschueitzer">Lucas</a> and <a target="_blank" href="https://github.com/marcelobasso">Marcelo</a>
                     </span>
                     <span>© All rights are reserved | 2022</span>
                 </Container>
