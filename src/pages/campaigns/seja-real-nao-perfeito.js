@@ -85,7 +85,7 @@ export default function sejaRealNaoPerfeito(props) {
                 content={<>Sou a Thaís Basso, nutricionista pós-graduada em nutrição funcional e comportamento alimentar. Sou apaixonada pela minha profissão e acho incrível como ela pode mudar a vida das pessoas.<br/><br/>Sei da importância da mudança de hábitos e de comportamentos para manutenção dos resultados a longo prazo. Também sei que saúde é um conjunto de pilares de estilo de vida, e que precisamos estar cuidando de cada um deles diariamente! Essa comunidade ajuda a criar hábitos, baseados em educação de qualidade, e aumento da consciência sobre saúde e estilo de vida. Fazendo você finalmente alcançar seus objetivos e mantê-los a longo prazo, sem ficar refém de dietas da moda.</>} 
                 image={image}
                 callToAction="Inscreva-se agora"
-                href="https://mpago.la/18mL4Lp"
+                href="https://pay.kiwify.com.br/SL9Mijn"
             />
             
             <Treatment 
@@ -176,7 +176,7 @@ export default function sejaRealNaoPerfeito(props) {
 
             <ActionBanner 
                 callToAction="Venha fazer parte do nosso grupo" 
-                href="https://mpago.la/18mL4Lp"
+                href="https://pay.kiwify.com.br/SL9Mijn"
                 content={<>Não existe hora certa para começar, a melhor hora é quando você decide mudar. <br/>Comece a investir no seu eu do futuro agora mesmo!</>} 
                 text="SERÁ UM PRAZER COMPARTILHAR E APRENDER CONTIGO!" 
                 image={<Woman />} 
