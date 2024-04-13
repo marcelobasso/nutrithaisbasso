@@ -148,7 +148,7 @@ export default function sejaRealNaoPerfeito(props) {
                                         <div className="text-center mt-3">
                                             <CallToAction 
                                                 text="Inscrever-me"
-                                                href="https://mpago.la/18mL4Lp"
+                                                href="https://pay.kiwify.com.br/SL9Mijn"
                                             />
                                         </div>
                                     </div>
@@ -156,14 +156,14 @@ export default function sejaRealNaoPerfeito(props) {
                                         <h3>Plano Mensal <span className="price">R$ 49,90</span></h3>
                                         <CallToAction 
                                             text="Inscrever-me"
-                                            href="https://mpago.la/18mL4Lp"
+                                            href="https://pay.kiwify.com.br/u4HUyBl"
                                         />
                                     </div>
                                     <div className="bigger inline">
                                         <h3>Plano Anual <span className="price">R$ 480,00</span></h3>
                                         <CallToAction 
                                             text="Inscrever-me"
-                                            href="https://mpago.la/18mL4Lp"
+                                            href="https://pay.kiwify.com.br/Cut7cv8"
                                         />
                                     </div>
                                 </div>
