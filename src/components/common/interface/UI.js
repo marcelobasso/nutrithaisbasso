@@ -22,7 +22,7 @@ const Container = (props) => (
 );
 
 const CallToAction = (props) => {
-    const whatsappLink = "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005";
+    const whatsappLink = "https://api.whatsapp.com/send?1=pt_BR&phone=5554997119446";
 
     return (
         <a

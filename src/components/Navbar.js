@@ -11,21 +11,21 @@ export default function Navbar(props) {
             to: "/",
             ariaLabel: "Página inicial",
         },
-        {
-            name: "Sobre mim",
-            to: "/sobre-mim",
-            ariaLable: "Informações sobre mim",
-        },
+        // {
+        //     name: "Sobre mim",
+        //     to: "/sobre-mim",
+        //     ariaLable: "Informações sobre mim",
+        // },
         {
             name: "Contato",
             to: "/contato",
             ariaLabel: "Informações de contato",
         },
-        {
-            name: "Atendimentos",
-            to: "/atendimentos",
-            ariaLabel: "Informações sobre as consultas e valores dos planos.",
-        }
+        // {
+        //     name: "Atendimentos",
+        //     to: "/atendimentos",
+        //     ariaLabel: "Informações sobre as consultas e valores dos planos.",
+        // }
     ];
 
     // {
@@ -47,7 +47,7 @@ export default function Navbar(props) {
         },
         {
             icon: "fa-whatsapp",
-            href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
+            href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554997119446",
             alt: "Link do WhatsApp",
         },
         {

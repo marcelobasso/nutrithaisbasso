@@ -24,9 +24,9 @@ export default function Home() {
             <Flowery />
             <AboutMe />
             <Treatment />
-            <IlustratedMenus />
-            <Features />
-            <Portfolio />
+            {/* <IlustratedMenus /> */}
+            {/* <Features /> */}
+            {/* <Portfolio /> */}
             <SpecialFeatures />
             <SocialProof />
             <ActionBanner text="Venha comigo desvendar uma forma mais saudável de se alimentar" image={<Woman />} />

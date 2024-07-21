@@ -34,7 +34,7 @@ export default function sobreMim(props) {
                 name: "Celular",
                 icon: "fab fa-whatsapp",
                 content: "(54) 99622-4005",
-                href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
+                href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554997119446",
             },
         ],
         [

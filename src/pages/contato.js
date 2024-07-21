@@ -23,10 +23,10 @@ export default function contato({ data }) {
         {
             icon: <i className="fab fa-whatsapp icon"></i>,
             name: "WhatsApp",
-            content: "(54) 99622-4005",
+            content: "(54) 99711-9446",
             action: {
                 text: "Marque sua consulta!",
-                href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554996224005",
+                href: "https://api.whatsapp.com/send?1=pt_BR&phone=5554997119446",
                 alt: "WhatsApp link",
             },
         },
