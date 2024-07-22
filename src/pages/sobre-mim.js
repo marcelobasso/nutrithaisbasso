@@ -10,10 +10,13 @@ import ButtonStyle from "../images/undraw/undraw_button_style_white.svg";
 import ActionBanner from "../components/common/ActionBanner";
 import { graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
+import { navigate } from 'gatsby'
 
 export const Head = () => <Seo title="Sobre mim | Thaís Basso Nutricionista" />;
 
 export default function sobreMim(props) {
+    navigate('/404');
+    
     const image = props.data.logo.childImageSharp.gatsbyImageData;
 
     const sobreMimLinks = [

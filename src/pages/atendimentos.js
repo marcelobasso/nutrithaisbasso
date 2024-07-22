@@ -6,10 +6,13 @@ import "../styles/atendimentos.css";
 import Roadmap from "../components/atendimentos/Roadmap";
 import { Container, Row, SectionText, SectionTitle } from "../components/common/interface/UI";
 import Advice from "../components/atendimentos/Advice";
+import { navigate } from 'gatsby'
 
 export const Head = () => <Seo title="Atendimentos | Thaís Basso Nutricionista" />;
 
 export default function atendimentos() {
+    navigate('/404');
+
     return (
         <Layout>
             <Header title="Consultas e planos" subtitle="Conheça mais sobre o funcionamento das consultas e o que está incluso em cada plano, além dos valores."/>
