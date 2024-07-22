@@ -74,7 +74,7 @@ export default function contato({ data }) {
                                 CEP 95185-000 - Carlos Barbosa/RS
                             </p>
                             <h4 className="mt-2">Fone</h4>
-                            <p>(54) 99622-4005</p>
+                            <p>(54) 99711-9446</p>
                         </div>
                         <div className="col-lg-8 col-md-12 p-3">
                             <iframe
