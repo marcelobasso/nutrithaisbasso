@@ -11,3 +11,11 @@
 <p align="center">Um portfólio profissional construído do zero com Gatsby, React Js, Material Design Bootstrap 5 (MDB5) e GraphQL.</p>
 
 Esse website é um projeto simples de portfólio profissional com informações acerca da nutricionista Thaís Basso. Ele foi construído para treinar meus conhecimentos em Gatsby e React, com o objetivo de contruir páginas estáticas de maneira simples.
+
+## Dependencies
+```
+npm
+gatsby
+reactjs
+nodejs
+```
